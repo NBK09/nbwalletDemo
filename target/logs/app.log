@@ -114,3 +114,105 @@
 2025-10-12 13:56:06 [Test worker] INFO  ApiRequest - Performed DELETE api/v1/authentication/revoke
 2025-10-12 13:56:06 [Test worker] WARN  ApiRequest - Response is 
 
+2025-10-12 17:39:12 [Test worker] INFO  ApiRequest - Performed POST api/v1/authentication/refresh
+2025-10-12 17:39:12 [Test worker] INFO  ApiRequest - Body is {"jwtToken":null,"refreshToken":null,"expiration":null,"username":null,"password":null}
+2025-10-12 17:39:12 [Test worker] WARN  ApiRequest - Response is 
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "$": [
+            "JSON deserialization for type 'IdentityApi.Model.RefreshModel' was missing required properties, including the following: accessToken"
+        ],
+        "model": [
+            "The model field is required."
+        ]
+    },
+    "traceId": "00-ebc74fabf447bf066ba8638a4c140cf0-8bb85af8d5981785-00"
+}
+2025-10-12 17:39:12 [Test worker] INFO  ApiRequest - Performed POST api/v1/authentication/refresh
+2025-10-12 17:39:12 [Test worker] INFO  ApiRequest - Body is {"jwtToken":null,"refreshToken":null,"expiration":null,"username":null,"password":null}
+2025-10-12 17:39:13 [Test worker] WARN  ApiRequest - Response is 
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "$": [
+            "JSON deserialization for type 'IdentityApi.Model.RefreshModel' was missing required properties, including the following: accessToken"
+        ],
+        "model": [
+            "The model field is required."
+        ]
+    },
+    "traceId": "00-dae46a8ef784a6f4ce0f2d7ebfa71d5b-d2dc907a531a51ae-00"
+}
+2025-10-12 17:41:31 [Test worker] INFO  ApiRequest - Performed POST api/v1/authentication/refresh
+2025-10-12 17:41:31 [Test worker] INFO  ApiRequest - Body is {"token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibWFuYWdlckBuYndhbGxldC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNYW5hZ2VyIiwiZXhwIjoxNzYwMjg0MDg4LCJpc3MiOiJOQldhbGxldFNlcnZlciIsImF1ZCI6Ik5CV2FsbGV0Q2xpZW50In0.8O0zrm6pjIcA3tfUxzFzKVkuUP1236a-rUo0TLXX9lY"}
+2025-10-12 17:41:31 [Test worker] WARN  ApiRequest - Response is 
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "$": [
+            "JSON deserialization for type 'IdentityApi.Model.RefreshModel' was missing required properties, including the following: accessToken, refreshToken"
+        ],
+        "model": [
+            "The model field is required."
+        ]
+    },
+    "traceId": "00-55ff53a5bb5d1baec58547895d6afe1f-bd49936429510b4f-00"
+}
+2025-10-12 17:41:31 [Test worker] INFO  ApiRequest - Performed POST api/v1/authentication/refresh
+2025-10-12 17:41:31 [Test worker] INFO  ApiRequest - Body is {"token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibWFuYWdlckBuYndhbGxldC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNYW5hZ2VyIiwiZXhwIjoxNzYwMjg0MDg4LCJpc3MiOiJOQldhbGxldFNlcnZlciIsImF1ZCI6Ik5CV2FsbGV0Q2xpZW50In0.8O0zrm6pjIcA3tfUxzFzKVkuUP1236a-rUo0TLXX9lY"}
+2025-10-12 17:41:32 [Test worker] WARN  ApiRequest - Response is 
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "$": [
+            "JSON deserialization for type 'IdentityApi.Model.RefreshModel' was missing required properties, including the following: accessToken, refreshToken"
+        ],
+        "model": [
+            "The model field is required."
+        ]
+    },
+    "traceId": "00-4bb49db037585bf76903d77842758d42-ebfae1baf263f351-00"
+}
+2025-10-12 17:42:20 [Test worker] INFO  ApiRequest - Performed POST api/v1/authentication/refresh
+2025-10-12 17:42:20 [Test worker] INFO  ApiRequest - Body is {"token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibWFuYWdlckBuYndhbGxldC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNYW5hZ2VyIiwiZXhwIjoxNzYwMjg0MTM3LCJpc3MiOiJOQldhbGxldFNlcnZlciIsImF1ZCI6Ik5CV2FsbGV0Q2xpZW50In0.JcKbjBK8Kn2gzhudyi5j9UcpDBtyA7cGhh24cPcfpvs"}
+2025-10-12 17:42:20 [Test worker] WARN  ApiRequest - Response is 
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "$": [
+            "JSON deserialization for type 'IdentityApi.Model.RefreshModel' was missing required properties, including the following: accessToken, refreshToken"
+        ],
+        "model": [
+            "The model field is required."
+        ]
+    },
+    "traceId": "00-a6f609c117312d7b3d72d4e0937010cf-0cd042ce9f7196b1-00"
+}
+2025-10-12 17:43:26 [Test worker] INFO  ApiRequest - Performed POST api/v1/authentication/refresh
+2025-10-12 17:43:26 [Test worker] INFO  ApiRequest - Body is {"token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibWFuYWdlckBuYndhbGxldC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNYW5hZ2VyIiwiZXhwIjoxNzYwMjg0MjAzLCJpc3MiOiJOQldhbGxldFNlcnZlciIsImF1ZCI6Ik5CV2FsbGV0Q2xpZW50In0.RnAbAtJbKvWSXZYaB_co7grSURCnx52mHkZxzISe-2w"}
+2025-10-12 17:43:26 [Test worker] WARN  ApiRequest - Response is 
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "$": [
+            "JSON deserialization for type 'IdentityApi.Model.RefreshModel' was missing required properties, including the following: accessToken, refreshToken"
+        ],
+        "model": [
+            "The model field is required."
+        ]
+    },
+    "traceId": "00-a499678e1453607923ffbcbe563e17f3-b9810e76ae25c67e-00"
+}

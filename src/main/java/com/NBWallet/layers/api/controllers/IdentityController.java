@@ -1,6 +1,7 @@
 package com.NBWallet.layers.api.controllers;
 
 import com.NBWallet.layers.api.models.Customer;
+import com.NBWallet.layers.api.models.Token;
 import com.NBWallet.layers.api.request.ApiRequest;
 import com.NBWallet.layers.api.request.stratgy.AuthStrategy;
 import com.NBWallet.layers.api.utils.ObjectConverter;
@@ -35,8 +36,10 @@ public class IdentityController extends ApiRequest {
         return this.response;
     }
 
-    public Response refreshToken(){
-        return this.response;
+    public Token refreshToken(AuthStrategy authStrategy){
+        this.response = post(getEndpoint(API.getPath(), V1.getPath(), AUTHENTICATION.getPath(),REFRESH.getPath()),
+                ObjectConverter.convertJavaObjectToJsonObject(authStrategy));
+        return response.as(Token.class);
     }
 }
 
