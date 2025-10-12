@@ -1,0 +1,116 @@
+2025-10-12 12:53:11 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/customers
+2025-10-12 12:53:11 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 18,
+            "firstName": "Temirlan",
+            "lastName": "Bakasov",
+            "email": "timb1594@gmail.com",
+            "phoneNumber": "8143008936",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 17,
+            "firstName": "aliia",
+            "lastName": "aliialiialiia",
+            "email": "aliia1@gmail.com",
+            "phoneNumber": "1223445566",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 16,
+            "firstName": "aliia",
+            "lastName": "aliialiialiia",
+            "email": "aliia@gmail.com",
+            "phoneNumber": "1223445566",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 14,
+            "firstName": "aliia",
+            "lastName": "alymbekova",
+            "email": "alymbekovaaliya@gmail.com",
+            "phoneNumber": "+996551589666",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 13,
+            "firstName": "Kaniet",
+            "lastName": "Mukaev",
+            "email": "example@gmail.com",
+            "phoneNumber": "0708722744",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 12,
+            "firstName": "Kaniet",
+            "lastName": "Mukaev",
+            "email": "aloh11@gmail.com",
+            "phoneNumber": "0708722744",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 11,
+            "firstName": "ТТТ",
+            "lastName": "Тг",
+            "email": "mus@asd.com",
+            "phoneNumber": "",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 10,
+            "firstName": "234567",
+            "lastName": "234567",
+            "email": "98765456@gggg.com",
+            "phoneNumber": "12345678",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 9,
+            "firstName": "ывыув",
+            "lastName": "кпуыепуя",
+            "email": "aloha@gmail.com",
+            "phoneNumber": "0708722744",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 8,
+            "firstName": "eld",
+            "lastName": "eld",
+            "email": "eld@demo.com",
+            "phoneNumber": "996702369685",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 12:53:11 [Test worker] INFO  ApiRequest - Performed DELETE api/v1/authentication/revoke
+2025-10-12 13:52:40 [Test worker] INFO  ApiRequest - Performed DELETE api/v1/authentication/revoke
+2025-10-12 13:56:06 [Test worker] INFO  ApiRequest - Performed DELETE api/v1/authentication/revoke
+2025-10-12 13:56:06 [Test worker] WARN  ApiRequest - Response is 
+

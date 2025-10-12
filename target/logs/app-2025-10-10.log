@@ -1,0 +1,91 @@
+2025-10-10 12:17:18 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/customers
+2025-10-10 12:17:18 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 12,
+            "firstName": "Kaniet",
+            "lastName": "Mukaev",
+            "email": "aloh11@gmail.com",
+            "phoneNumber": "0708722744",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 11,
+            "firstName": "ТТТ",
+            "lastName": "Тг",
+            "email": "mus@asd.com",
+            "phoneNumber": "",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 10,
+            "firstName": "234567",
+            "lastName": "234567",
+            "email": "98765456@gggg.com",
+            "phoneNumber": "12345678",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 9,
+            "firstName": "ывыув",
+            "lastName": "кпуыепуя",
+            "email": "aloha@gmail.com",
+            "phoneNumber": "0708722744",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 8,
+            "firstName": "eld",
+            "lastName": "eld",
+            "email": "eld@demo.com",
+            "phoneNumber": "996702369685",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 7,
+            "firstName": "Nuta",
+            "lastName": "Nuta",
+            "email": "nuta@nuta.com",
+            "phoneNumber": "996553520521",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 6,
+            "firstName": "Salamat",
+            "lastName": "Turdukhodzhaev",
+            "email": "st@mail.com",
+            "phoneNumber": "123123",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        },
+        {
+            "id": 5,
+            "firstName": "1",
+            "lastName": "2",
+            "email": "1@mail.com",
+            "phoneNumber": "a123123Z@",
+            "profileImage": "",
+            "userType": null,
+            "deleted": false
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 1,
+    "totalCount": 8,
+    "hasPreviousPage": true,
+    "hasNextPage": false
+}
