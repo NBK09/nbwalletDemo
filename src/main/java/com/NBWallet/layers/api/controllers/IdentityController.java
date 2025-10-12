@@ -31,10 +31,10 @@ public class IdentityController extends ApiRequest {
         return this.response;
     }
 
-    public Response revokeUser(){
-        this.response = delete(getEndpoint(API.getPath(), V1.getPath(),AUTHENTICATION.getPath(),REVOKE.getPath()));
-        return this.response;
-    }
+//    public Response revokeUser(){
+//        this.response = delete(getEndpoint(API.getPath(), V1.getPath(),AUTHENTICATION.getPath(),REVOKE.getPath()));
+//        return this.response;
+//    }
 
     public Token refreshToken(AuthStrategy authStrategy){
         this.response = post(getEndpoint(API.getPath(), V1.getPath(), AUTHENTICATION.getPath(),REFRESH.getPath()),

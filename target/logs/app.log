@@ -216,3 +216,1777 @@
     },
     "traceId": "00-a499678e1453607923ffbcbe563e17f3-b9810e76ae25c67e-00"
 }
+2025-10-12 18:29:39 [Test worker] INFO  ApiRequest - Performed POST api/v1/authentication/refresh
+2025-10-12 18:29:39 [Test worker] INFO  ApiRequest - Body is {"token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibWFuYWdlckBuYndhbGxldC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNYW5hZ2VyIiwiZXhwIjoxNzYwMjg2OTc2LCJpc3MiOiJOQldhbGxldFNlcnZlciIsImF1ZCI6Ik5CV2FsbGV0Q2xpZW50In0.-DYPnn2_VEOVv5vYVU9fqJWyuL1kBNbkdqsM12JZ3ls"}
+2025-10-12 18:29:39 [Test worker] WARN  ApiRequest - Response is 
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "$": [
+            "JSON deserialization for type 'IdentityApi.Model.RefreshModel' was missing required properties, including the following: accessToken, refreshToken"
+        ],
+        "model": [
+            "The model field is required."
+        ]
+    },
+    "traceId": "00-a1c511060c702f4d6a91312f8be002c6-f91e25affae752d6-00"
+}
+2025-10-12 18:29:39 [Test worker] INFO  ApiRequest - Performed POST manager-api/v1/account-plans
+2025-10-12 18:29:39 [Test worker] INFO  ApiRequest - Body is {"id":null,"name":"Silver","annualServicePrice":150.0}
+2025-10-12 18:29:40 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 4,
+    "name": "Silver",
+    "annualServicePrice": 150.0
+}
+2025-10-12 18:32:23 [Test worker] INFO  ApiRequest - Performed POST api/v1/authentication/refresh
+2025-10-12 18:32:23 [Test worker] INFO  ApiRequest - Body is {"token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibWFuYWdlckBuYndhbGxldC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNYW5hZ2VyIiwiZXhwIjoxNzYwMjg3MTM5LCJpc3MiOiJOQldhbGxldFNlcnZlciIsImF1ZCI6Ik5CV2FsbGV0Q2xpZW50In0.sWCyY1gTPxPjpNrdk6-JrfO0pL_dagCs7UzHDPrKzX4"}
+2025-10-12 18:32:23 [Test worker] WARN  ApiRequest - Response is 
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "$": [
+            "JSON deserialization for type 'IdentityApi.Model.RefreshModel' was missing required properties, including the following: accessToken, refreshToken"
+        ],
+        "model": [
+            "The model field is required."
+        ]
+    },
+    "traceId": "00-7731d05856d0f0be3b660d55c459e896-c7c43bb0dc4bb3e4-00"
+}
+2025-10-12 18:32:24 [Test worker] INFO  ApiRequest - Performed POST manager-api/v1/account-plans
+2025-10-12 18:32:24 [Test worker] INFO  ApiRequest - Body is {"id":null,"name":"Silver","annualServicePrice":150.0}
+2025-10-12 18:32:24 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 5,
+    "name": "Silver",
+    "annualServicePrice": 150.0
+}
+2025-10-12 18:42:27 [Test worker] INFO  ApiRequest - Performed POST manager-api/v1/account-plans
+2025-10-12 18:42:27 [Test worker] INFO  ApiRequest - Body is {"id":null,"name":"Silver","annualServicePrice":150.0}
+2025-10-12 18:42:27 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 6,
+    "name": "Silver",
+    "annualServicePrice": 150.0
+}
+2025-10-12 18:42:27 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 18:42:28 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 3,
+            "name": "Platinum",
+            "annualServicePrice": 1000.00
+        },
+        {
+            "id": 2,
+            "name": "Gold",
+            "annualServicePrice": 500.00
+        },
+        {
+            "id": 1,
+            "name": "Classic",
+            "annualServicePrice": 100.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 1,
+    "totalCount": 6,
+    "hasPreviousPage": true,
+    "hasNextPage": false
+}
+2025-10-12 18:51:43 [Test worker] INFO  ApiRequest - Performed POST manager-api/v1/account-plans
+2025-10-12 18:51:43 [Test worker] INFO  ApiRequest - Body is {"id":null,"name":"Silver","annualServicePrice":150.0}
+2025-10-12 18:51:43 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 7,
+    "name": "Silver",
+    "annualServicePrice": 150.0
+}
+2025-10-12 18:51:43 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans6
+2025-10-12 18:51:43 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 18:51:43 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 18:51:44 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 3,
+            "name": "Platinum",
+            "annualServicePrice": 1000.00
+        },
+        {
+            "id": 2,
+            "name": "Gold",
+            "annualServicePrice": 500.00
+        },
+        {
+            "id": 1,
+            "name": "Classic",
+            "annualServicePrice": 100.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 1,
+    "totalCount": 7,
+    "hasPreviousPage": true,
+    "hasNextPage": false
+}
+2025-10-12 18:52:46 [Test worker] INFO  ApiRequest - Performed POST manager-api/v1/account-plans
+2025-10-12 18:52:46 [Test worker] INFO  ApiRequest - Body is {"id":null,"name":"DELETE","annualServicePrice":150.0}
+2025-10-12 18:52:46 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 8,
+    "name": "DELETE",
+    "annualServicePrice": 150.0
+}
+2025-10-12 18:52:46 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans8
+2025-10-12 18:52:46 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 18:52:46 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 18:52:47 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 3,
+            "name": "Platinum",
+            "annualServicePrice": 1000.00
+        },
+        {
+            "id": 2,
+            "name": "Gold",
+            "annualServicePrice": 500.00
+        },
+        {
+            "id": 1,
+            "name": "Classic",
+            "annualServicePrice": 100.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 1,
+    "totalCount": 8,
+    "hasPreviousPage": true,
+    "hasNextPage": false
+}
+2025-10-12 18:57:06 [Test worker] INFO  ApiRequest - Performed POST manager-api/v1/account-plans
+2025-10-12 18:57:06 [Test worker] INFO  ApiRequest - Body is {"id":null,"name":"DELETE","annualServicePrice":150.0}
+2025-10-12 18:57:07 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 9,
+    "name": "DELETE",
+    "annualServicePrice": 150.0
+}
+2025-10-12 18:57:07 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/8
+2025-10-12 18:57:07 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 18:57:07 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 18:57:07 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 3,
+            "name": "Platinum",
+            "annualServicePrice": 1000.00
+        },
+        {
+            "id": 2,
+            "name": "Gold",
+            "annualServicePrice": 500.00
+        },
+        {
+            "id": 1,
+            "name": "Classic",
+            "annualServicePrice": 100.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 1,
+    "totalCount": 9,
+    "hasPreviousPage": true,
+    "hasNextPage": false
+}
+2025-10-12 18:59:21 [Test worker] INFO  ApiRequest - Performed POST manager-api/v1/account-plans
+2025-10-12 18:59:22 [Test worker] INFO  ApiRequest - Body is {"id":null,"name":"DELETE","annualServicePrice":150.0}
+2025-10-12 18:59:22 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 10,
+    "name": "DELETE",
+    "annualServicePrice": 150.0
+}
+2025-10-12 18:59:22 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/10
+2025-10-12 18:59:22 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 18:59:22 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 18:59:22 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 3,
+            "name": "Platinum",
+            "annualServicePrice": 1000.00
+        },
+        {
+            "id": 2,
+            "name": "Gold",
+            "annualServicePrice": 500.00
+        },
+        {
+            "id": 1,
+            "name": "Classic",
+            "annualServicePrice": 100.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 1,
+    "totalCount": 10,
+    "hasPreviousPage": true,
+    "hasNextPage": false
+}
+2025-10-12 19:00:42 [Test worker] INFO  ApiRequest - Performed POST manager-api/v1/account-plans
+2025-10-12 19:00:42 [Test worker] INFO  ApiRequest - Body is {"id":null,"name":"DELETE","annualServicePrice":150.0}
+2025-10-12 19:00:42 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 11,
+    "name": "DELETE",
+    "annualServicePrice": 150.0
+}
+2025-10-12 19:02:56 [Test worker] INFO  ApiRequest - Performed POST manager-api/v1/account-plans
+2025-10-12 19:02:56 [Test worker] INFO  ApiRequest - Body is {"id":null,"name":"DELETE","annualServicePrice":150.0}
+2025-10-12 19:02:56 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 12,
+    "name": "DELETE",
+    "annualServicePrice": 150.0
+}
+2025-10-12 19:02:56 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/1
+2025-10-12 19:02:57 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 19:02:57 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 19:02:57 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 3,
+            "name": "Platinum",
+            "annualServicePrice": 1000.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 12,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 19:04:09 [Test worker] INFO  ApiRequest - Performed POST manager-api/v1/account-plans
+2025-10-12 19:04:09 [Test worker] INFO  ApiRequest - Body is {"id":null,"name":"DELETE","annualServicePrice":150.0}
+2025-10-12 19:04:09 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 13,
+    "name": "DELETE",
+    "annualServicePrice": 150.0
+}
+2025-10-12 19:04:09 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/3
+2025-10-12 19:04:10 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 19:04:10 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 19:04:10 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 19:05:43 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/5
+2025-10-12 19:05:43 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 19:05:43 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 19:05:44 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 19:06:32 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 19:06:32 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 19:06:32 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 19:06:33 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 19:08:01 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 19:08:01 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 19:08:01 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 19:08:02 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 19:25:04 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 19:25:05 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 19:25:05 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 19:25:05 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 19:25:05 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans
+2025-10-12 19:25:05 [Test worker] INFO  ApiRequest - Body is {"id":10,"name":"Rename","annualServicePrice":299.0}
+2025-10-12 19:25:06 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 19:35:56 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 19:35:56 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 19:35:56 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 19:35:57 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 19:35:57 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/10
+2025-10-12 19:35:57 [Test worker] INFO  ApiRequest - Body is {"id":10,"name":"Rename","annualServicePrice":299.0}
+2025-10-12 19:35:57 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 19:45:47 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 19:45:47 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 19:45:47 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 19:45:47 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 19:45:47 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/10
+2025-10-12 19:45:47 [Test worker] INFO  ApiRequest - Body is {"id":10,"name":"Rename","annualServicePrice":299.0}
+2025-10-12 19:45:48 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:23:19 [Test worker] INFO  DefaultHttpClient - I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://46.149.69.114:5050: No route to host: connect
+2025-10-12 20:23:19 [Test worker] INFO  DefaultHttpClient - Retrying connect to {}->http://46.149.69.114:5050
+2025-10-12 20:23:19 [Test worker] INFO  DefaultHttpClient - I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://46.149.69.114:5050: No route to host: connect
+2025-10-12 20:23:19 [Test worker] INFO  DefaultHttpClient - Retrying connect to {}->http://46.149.69.114:5050
+2025-10-12 20:23:19 [Test worker] INFO  DefaultHttpClient - I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://46.149.69.114:5050: No route to host: connect
+2025-10-12 20:23:19 [Test worker] INFO  DefaultHttpClient - Retrying connect to {}->http://46.149.69.114:5050
+2025-10-12 20:39:31 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 20:39:32 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:39:32 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 20:39:32 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 20:39:32 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/11
+2025-10-12 20:39:32 [Test worker] INFO  ApiRequest - Body is {"id":11,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 20:39:33 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:43:20 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 20:43:20 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:43:20 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 20:43:21 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 20:43:21 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/11
+2025-10-12 20:43:21 [Test worker] INFO  ApiRequest - Body is {"id":11,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 20:43:21 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:43:21 [Test worker] INFO  ManagerController - Status code: 404
+2025-10-12 20:43:21 [Test worker] INFO  ManagerController - Response headers: Content-Length=0
+Date=Sun, 12 Oct 2025 17:49:57 GMT
+Server=Kestrel
+2025-10-12 20:43:21 [Test worker] INFO  ManagerController - Response body: ''
+2025-10-12 20:43:21 [Test worker] WARN  ManagerController - Server returned empty body (likely 204 No Content). Returning original object.
+2025-10-12 20:46:25 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 20:46:26 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:46:26 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 20:46:26 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 20:46:26 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/11
+2025-10-12 20:46:26 [Test worker] INFO  ApiRequest - Body is {"id":11,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 20:46:27 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:47:39 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 20:47:39 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:47:39 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 20:47:39 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 20:47:39 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/11
+2025-10-12 20:47:39 [Test worker] INFO  ApiRequest - Body is {"id":11,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 20:47:40 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:49:14 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 20:49:15 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:49:15 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 20:49:15 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 20:49:15 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/5
+2025-10-12 20:49:15 [Test worker] INFO  ApiRequest - Body is {"id":5,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 20:49:16 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:49:53 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/13
+2025-10-12 20:49:54 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:49:54 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/5
+2025-10-12 20:49:54 [Test worker] INFO  ApiRequest - Body is {"id":5,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 20:49:54 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-12 20:49:54 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 20:49:54 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 20:55:37 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/id
+2025-10-12 20:55:37 [Test worker] WARN  ApiRequest - Response is 
+System.InvalidOperationException: Could not create an instance of type 'Application.AccountPlans.Commands.DeleteAccountPlan.DeleteAccountPlanCommand'. Model bound complex types must not be abstract or value types and must have a parameterless constructor. Record types must have a single primary constructor. Alternatively, give the 'command' parameter a non-null default value.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.CreateModel(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.BindModelCoreAsync(ModelBindingContext bindingContext, Int32 propertyData)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+HEADERS
+=======
+Accept: application/json, application/javascript, text/javascript, text/json
+Connection: keep-alive
+Host: 46.149.69.114:7070
+User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.8)
+Accept-Encoding: gzip,deflate
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibWFuYWdlckBuYndhbGxldC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNYW5hZ2VyIiwiZXhwIjoxNzYwMjk1NzM0LCJpc3MiOiJOQldhbGxldFNlcnZlciIsImF1ZCI6Ik5CV2FsbGV0Q2xpZW50In0.G62XSznMjCr0OM5b5vtgoZf1PlHdZuejlFHyVxR7_5E
+Content-Type: application/json
+
+2025-10-12 20:55:38 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/id
+2025-10-12 20:55:38 [Test worker] INFO  ApiRequest - Body is {"id":5,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 20:55:38 [Test worker] WARN  ApiRequest - Response is 
+[
+    "Something went wrong"
+]
+2025-10-12 20:55:38 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 20:55:38 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 20:58:07 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/id
+2025-10-12 20:58:08 [Test worker] WARN  ApiRequest - Response is 
+System.InvalidOperationException: Could not create an instance of type 'Application.AccountPlans.Commands.DeleteAccountPlan.DeleteAccountPlanCommand'. Model bound complex types must not be abstract or value types and must have a parameterless constructor. Record types must have a single primary constructor. Alternatively, give the 'command' parameter a non-null default value.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.CreateModel(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.BindModelCoreAsync(ModelBindingContext bindingContext, Int32 propertyData)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+HEADERS
+=======
+Accept: application/json, application/javascript, text/javascript, text/json
+Connection: keep-alive
+Host: 46.149.69.114:7070
+User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.8)
+Accept-Encoding: gzip,deflate
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibWFuYWdlckBuYndhbGxldC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNYW5hZ2VyIiwiZXhwIjoxNzYwMjk1ODg0LCJpc3MiOiJOQldhbGxldFNlcnZlciIsImF1ZCI6Ik5CV2FsbGV0Q2xpZW50In0.Qul7HOvXneaSXR4L2xbXMOaycQagQqXw3y-Z94mHjqI
+Content-Type: application/json
+
+2025-10-12 20:58:08 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/id
+2025-10-12 20:58:08 [Test worker] INFO  ApiRequest - Body is {"id":5,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 20:58:08 [Test worker] WARN  ApiRequest - Response is 
+[
+    "Something went wrong"
+]
+2025-10-12 20:58:08 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 20:58:08 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 21:04:37 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/id
+2025-10-12 21:04:38 [Test worker] WARN  ApiRequest - Response is 
+System.InvalidOperationException: Could not create an instance of type 'Application.AccountPlans.Commands.DeleteAccountPlan.DeleteAccountPlanCommand'. Model bound complex types must not be abstract or value types and must have a parameterless constructor. Record types must have a single primary constructor. Alternatively, give the 'command' parameter a non-null default value.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.CreateModel(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.BindModelCoreAsync(ModelBindingContext bindingContext, Int32 propertyData)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+HEADERS
+=======
+Accept: application/json, application/javascript, text/javascript, text/json
+Connection: keep-alive
+Host: 46.149.69.114:7070
+User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.8)
+Accept-Encoding: gzip,deflate
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibWFuYWdlckBuYndhbGxldC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNYW5hZ2VyIiwiZXhwIjoxNzYwMjk2Mjc0LCJpc3MiOiJOQldhbGxldFNlcnZlciIsImF1ZCI6Ik5CV2FsbGV0Q2xpZW50In0.xJakuxVnn0fyDIFLojBpRlIbNClSfYap5JBiDComMn4
+Content-Type: application/json
+
+2025-10-12 21:04:38 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/id
+2025-10-12 21:04:38 [Test worker] INFO  ApiRequest - Body is {"id":5,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 21:04:38 [Test worker] WARN  ApiRequest - Response is 
+[
+    "Something went wrong"
+]
+2025-10-12 21:04:38 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 21:04:39 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 21:15:34 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/account-plans/id
+2025-10-12 21:15:34 [Test worker] INFO  ApiRequest - Body is "10"
+2025-10-12 21:15:34 [Test worker] WARN  ApiRequest - Response is 
+System.InvalidOperationException: Could not create an instance of type 'Application.AccountPlans.Commands.DeleteAccountPlan.DeleteAccountPlanCommand'. Model bound complex types must not be abstract or value types and must have a parameterless constructor. Record types must have a single primary constructor. Alternatively, give the 'command' parameter a non-null default value.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.CreateModel(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.BindModelCoreAsync(ModelBindingContext bindingContext, Int32 propertyData)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+HEADERS
+=======
+Accept: application/json, application/javascript, text/javascript, text/json
+Connection: keep-alive
+Host: 46.149.69.114:7070
+User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.8)
+Accept-Encoding: gzip,deflate
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibWFuYWdlckBuYndhbGxldC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJNYW5hZ2VyIiwiZXhwIjoxNzYwMjk2OTMxLCJpc3MiOiJOQldhbGxldFNlcnZlciIsImF1ZCI6Ik5CV2FsbGV0Q2xpZW50In0.Hv0AgQ0Mf1zAF7dR3VNaD5Nm_M9EHGH8aZsP-dizKjc
+Content-Type: application/json
+Content-Length: 4
+
+2025-10-12 21:15:34 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/id
+2025-10-12 21:15:34 [Test worker] INFO  ApiRequest - Body is {"id":5,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 21:15:35 [Test worker] WARN  ApiRequest - Response is 
+[
+    "Something went wrong"
+]
+2025-10-12 21:15:35 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 21:15:35 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-12 21:16:39 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/account-plans/id
+2025-10-12 21:16:39 [Test worker] INFO  ApiRequest - Body is {"id":5,"name":"Name","annualServicePrice":1299.1}
+2025-10-12 21:16:39 [Test worker] WARN  ApiRequest - Response is 
+[
+    "Something went wrong"
+]
+2025-10-12 21:16:39 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/account-plans
+2025-10-12 21:16:39 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 13,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 12,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 11,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 10,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 9,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 8,
+            "name": "DELETE",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 7,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 6,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 5,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        },
+        {
+            "id": 4,
+            "name": "Silver",
+            "annualServicePrice": 150.00
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 13,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
