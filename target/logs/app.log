@@ -1054,3 +1054,582 @@
     "accountTransactionLimit": null,
     "createdDate": "2025-10-13T08:49:34.4290787Z"
 }
+2025-10-13 17:24:11 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 17:24:11 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 17:24:11 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 17:24:12 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 17:24:12 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 17:24:12 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 37,
+    "number": "00000000037",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T12:24:12.0886633Z"
+}
+2025-10-13 17:24:12 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 17:24:12 [Test worker] INFO  ApiRequest - Body is {"accountNumber":"00000000037","amount":9999.0}
+2025-10-13 17:36:24 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 17:36:24 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 17:36:24 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 17:36:25 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 17:36:25 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 17:36:25 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 38,
+    "number": "00000000038",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T12:36:24.994835Z"
+}
+2025-10-13 17:36:25 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 17:36:25 [Test worker] INFO  ApiRequest - Body is {"amount":9999.0,"accountNumber":"00000000038"}
+2025-10-13 17:41:25 [Test worker] WARN  ApiRequest - Response is 
+[
+    "Something went wrong"
+]
+2025-10-13 17:41:25 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-13 17:41:25 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 15,
+            "number": "00000000015",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000038",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T12:36:25.157072Z",
+            "lastModified": null
+        },
+        {
+            "id": 14,
+            "number": "00000000014",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000037",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T12:24:12.254974Z",
+            "lastModified": null
+        },
+        {
+            "id": 13,
+            "number": "00000000013",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000036",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T12:10:35.316922Z",
+            "lastModified": null
+        },
+        {
+            "id": 12,
+            "number": "00000000012",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000029",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:38:08.108031Z",
+            "lastModified": null
+        },
+        {
+            "id": 11,
+            "number": "00000000011",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000026",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:30:07.74338Z",
+            "lastModified": null
+        },
+        {
+            "id": 10,
+            "number": "00000000010",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000025",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:28:07.7723Z",
+            "lastModified": null
+        },
+        {
+            "id": 9,
+            "number": "00000000009",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000024",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:27:12.800139Z",
+            "lastModified": null
+        },
+        {
+            "id": 8,
+            "number": "00000000008",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000005",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 900.00,
+            "currency": "Kgs",
+            "status": "Pending",
+            "created": "2025-10-11T12:09:52.417712Z",
+            "lastModified": null
+        },
+        {
+            "id": 7,
+            "number": "00000000007",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000004",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 5000.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-11T12:09:20.27441Z",
+            "lastModified": "2025-10-13T07:57:11.388603Z"
+        },
+        {
+            "id": 6,
+            "number": "00000000006",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000004",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 5000.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-11T12:09:14.503311Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 15,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-13 17:41:25 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/transactions/15/status
+2025-10-13 17:41:25 [Test worker] INFO  ApiRequest - Body is {"status":"1"}
+2025-10-13 17:41:25 [Test worker] WARN  ApiRequest - Response is 
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "command": [
+            "The command field is required."
+        ],
+        "$.status": [
+            "The JSON value could not be converted to Domain.Enums.TransactionStatus. Path: $.status | LineNumber: 0 | BytePositionInLine: 13."
+        ]
+    },
+    "traceId": "00-b4ad9e89ee7f00ba35d8bac70a601387-dd7e959ca521a947-00"
+}
+2025-10-13 17:41:25 [Test worker] INFO  ManagerController - Updated transaction 15 status to '1', response code: 400
+2025-10-13 17:41:25 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 17:41:26 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 17:41:26 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 17:41:26 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 17:41:26 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 17:41:26 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 39,
+    "number": "00000000039",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T12:41:26.3139236Z"
+}
+2025-10-13 17:41:26 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions
+2025-10-13 17:41:26 [Test worker] INFO  ApiRequest - Body is {"amount":1500.0,"sourceAccountNumber":"00000000038","destinationAccountNumber":"00000000039","notes":"Transfer to second customer"}
+2025-10-13 17:41:26 [Test worker] WARN  ApiRequest - Response is 
+[
+    "You don't have enough money"
+]
+2025-10-13 17:43:33 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 17:43:33 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 17:43:33 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 17:43:34 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 17:43:34 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 17:43:34 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 40,
+    "number": "00000000040",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T12:43:33.7844281Z"
+}
+2025-10-13 17:43:34 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 17:43:34 [Test worker] INFO  ApiRequest - Body is {"amount":9999.0,"accountNumber":"00000000040"}
+2025-10-13 17:46:17 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 17:46:17 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 17:46:17 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 17:46:17 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 17:46:17 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 17:46:18 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 41,
+    "number": "00000000041",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T12:46:17.6563622Z"
+}
+2025-10-13 17:46:18 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 17:46:18 [Test worker] INFO  ApiRequest - Body is {"amount":9999.0,"accountNumber":"00000000041"}
+2025-10-13 17:51:18 [Test worker] WARN  ApiRequest - Response is 
+[
+    "Something went wrong"
+]
+2025-10-13 17:51:18 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-13 17:51:18 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 17,
+            "number": "00000000017",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000041",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T12:46:17.809776Z",
+            "lastModified": null
+        },
+        {
+            "id": 16,
+            "number": "00000000016",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000040",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T12:43:33.93229Z",
+            "lastModified": null
+        },
+        {
+            "id": 15,
+            "number": "00000000015",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000038",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T12:36:25.157072Z",
+            "lastModified": null
+        },
+        {
+            "id": 14,
+            "number": "00000000014",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000037",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T12:24:12.254974Z",
+            "lastModified": null
+        },
+        {
+            "id": 13,
+            "number": "00000000013",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000036",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T12:10:35.316922Z",
+            "lastModified": null
+        },
+        {
+            "id": 12,
+            "number": "00000000012",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000029",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:38:08.108031Z",
+            "lastModified": null
+        },
+        {
+            "id": 11,
+            "number": "00000000011",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000026",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:30:07.74338Z",
+            "lastModified": null
+        },
+        {
+            "id": 10,
+            "number": "00000000010",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000025",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:28:07.7723Z",
+            "lastModified": null
+        },
+        {
+            "id": 9,
+            "number": "00000000009",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000024",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:27:12.800139Z",
+            "lastModified": null
+        },
+        {
+            "id": 8,
+            "number": "00000000008",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000005",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 900.00,
+            "currency": "Kgs",
+            "status": "Pending",
+            "created": "2025-10-11T12:09:52.417712Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 17,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-13 17:51:18 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/transactions/17/status
+2025-10-13 17:51:18 [Test worker] INFO  ApiRequest - Body is {"command":{"status":"Approved"}}
+2025-10-13 17:51:18 [Test worker] WARN  ApiRequest - Response is 
+[
+    "Transaction not found."
+]
+2025-10-13 17:51:18 [Test worker] INFO  ManagerController - Updated transaction 17 status to 'Approved', response code: 400
+2025-10-13 17:51:18 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 17:51:18 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 17:51:18 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 17:51:19 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 17:51:19 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 17:51:19 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 42,
+    "number": "00000000042",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T12:51:18.9829338Z"
+}
+2025-10-13 17:51:19 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions
+2025-10-13 17:51:19 [Test worker] INFO  ApiRequest - Body is {"amount":1500.0,"sourceAccountNumber":"00000000041","destinationAccountNumber":"00000000042","notes":"Transfer to second customer"}
+2025-10-13 17:51:19 [Test worker] WARN  ApiRequest - Response is 
+[
+    "You don't have enough money"
+]
+2025-10-13 18:06:53 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 18:06:53 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 18:06:53 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 18:06:54 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 18:06:54 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 18:06:54 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 43,
+    "number": "00000000043",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T13:06:53.8223984Z"
+}
+2025-10-13 18:06:54 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 18:06:54 [Test worker] INFO  ApiRequest - Body is {"accountNumber":"00000000043","amount":9999.0}
+2025-10-13 18:10:43 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 18:10:43 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 18:10:43 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 18:10:44 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 18:10:44 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 18:10:44 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 44,
+    "number": "00000000044",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T13:10:43.7274425Z"
+}
+2025-10-13 18:10:44 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 18:10:44 [Test worker] INFO  ApiRequest - Body is {"accountNumber":"00000000044","amount":9999.0}
+2025-10-13 18:12:32 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 18:12:32 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 18:12:32 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 18:12:32 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 18:12:32 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 18:12:33 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 45,
+    "number": "00000000045",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T13:12:32.6295477Z"
+}
+2025-10-13 18:12:33 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 18:12:33 [Test worker] INFO  ApiRequest - Body is {"accountNumber":"00000000045","amount":9999}
+2025-10-13 18:13:15 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 18:13:16 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 18:13:16 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 18:13:16 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 18:13:16 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 18:13:16 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 46,
+    "number": "00000000046",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T13:13:16.2738103Z"
+}
+2025-10-13 18:13:16 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 18:13:16 [Test worker] INFO  ApiRequest - Body is {"accountNumber":"00000000046","amount":9999}
+2025-10-13 18:18:16 [Test worker] WARN  ApiRequest - Response is 
+[
+    "Something went wrong"
+]
+2025-10-13 18:27:51 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 18:27:51 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 18:27:51 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 18:27:52 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/customers
+2025-10-13 18:27:52 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 18:33:15 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 18:33:16 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 18:33:16 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 18:33:16 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/customers
+2025-10-13 18:33:16 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 18:35:08 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 18:35:09 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 18:35:09 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 18:35:09 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/customers
+2025-10-13 18:35:09 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 18:35:09 [Test worker] INFO  CustomerController - Account Deleted

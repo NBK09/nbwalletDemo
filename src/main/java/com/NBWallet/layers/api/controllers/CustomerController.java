@@ -8,11 +8,14 @@ import com.NBWallet.layers.api.utils.ObjectConverter;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import lombok.extern.slf4j.Slf4j;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 import static com.NBWallet.layers.api.enums.Endpoints.*;
-
+@Slf4j
 public class CustomerController extends ApiRequest {
     public CustomerController(String URL, AuthStrategy token) {
         super(URL, token);
@@ -64,18 +67,35 @@ public class CustomerController extends ApiRequest {
         return this.response;
     }
 
+    public Response deleteCustomer() {
+        String endpoint = getEndpoint(MANAGER_API.getPath(), V1.getPath(), CUSTOMERS.getPath());
+        this.response = delete(endpoint);
+        return this.response;
+    }
+
     // ===================== 🏦 ТРАНЗАКЦИИ =====================
 
     /**
      * POST /api/v1/transactions
      * Создаёт новую транзакцию между аккаунтами
      */
-    public TransactionItemDto createTransaction(TransactionRequest transactionRequest) {
-        this.response = post(
-                getEndpoint(API.getPath(), V1.getPath(), TRANSACTIONS.getPath()),
-                ObjectConverter.convertJavaObjectToJsonObject(transactionRequest)
-        );
-        return this.response.as(TransactionItemDto.class);
+    public List<TransactionItemDto> createTransaction(TransactionRequest request) {
+        this.response = post(getEndpoint(API.getPath(), V1.getPath(), TRANSACTIONS.getPath()),
+                ObjectConverter.convertJavaObjectToJsonObject(request));
+
+        if (this.response.statusCode() >= 400) {
+            log.error("Transaction creation failed: {}", this.response.getBody().asString());
+            throw new RuntimeException("Transaction creation failed: " + this.response.getBody().asString());
+        }
+
+        // Обрабатываем разные типы ответа (список или объект)
+        String body = this.response.getBody().asString();
+        if (body.trim().startsWith("[")) {
+            return Arrays.asList((TransactionItemDto) ObjectConverter
+                    .convertJsonArrayToListOfObj(body, TransactionItemDto[].class)).reversed();
+        } else {
+            return List.of(ObjectConverter.convertJsonObjectToJavaObject(body, TransactionItemDto.class));
+        }
     }
 
     /**
@@ -104,13 +124,13 @@ public class CustomerController extends ApiRequest {
      * POST /api/v1/transactions/add-funds
      * Пополняет баланс аккаунта
      */
-    public Response addFunds(String accountNumber, double amount) {
+    public AddFundsRequest addFunds(String accountNumber, int amount) {
         var body = Map.of("accountNumber", accountNumber,
                                                                                             "amount", amount);
         this.response = post(
                 getEndpoint(API.getPath(), V1.getPath(), TRANSACTIONS.getPath(), ADD_FUNDS.getPath()),
                 ObjectConverter.convertJavaObjectToJsonObject(body)
         );
-        return this.response;
+        return this.response.as(AddFundsRequest.class);
     }
 }
