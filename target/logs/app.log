@@ -675,3 +675,382 @@
     "accountTransactionLimit": null,
     "createdDate": "2025-10-13T06:14:19.3068384Z"
 }
+2025-10-13 11:35:44 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 11:35:44 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 11:35:44 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 11:36:44 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 11:36:45 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 11:36:45 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 11:38:08 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 11:38:08 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 11:38:08 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 11:39:16 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 11:39:16 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 11:39:16 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 11:41:17 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 11:41:17 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 11:41:17 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 11:46:11 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 11:46:11 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 11:46:11 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 11:46:12 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 11:46:12 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 11:46:12 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 13,
+    "number": "00000000013",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T06:46:12.1252121Z"
+}
+2025-10-13 12:02:08 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 12:02:08 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 12:02:08 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 12:02:09 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 12:02:09 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 12:02:09 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 14,
+    "number": "00000000014",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T07:02:09.4055078Z"
+}
+2025-10-13 12:02:09 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 12:02:09 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 12:02:09 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 12:02:10 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 12:02:10 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 12:02:10 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 15,
+    "number": "00000000015",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T07:02:10.2019402Z"
+}
+2025-10-13 13:27:11 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 13:27:12 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 13:27:12 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 13:27:12 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 13:27:12 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 13:27:12 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 24,
+    "number": "00000000024",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T08:27:12.6073411Z"
+}
+2025-10-13 13:27:12 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 13:27:12 [Test worker] INFO  ApiRequest - Body is {"accountNumber":"00000000024","amount":9999.0}
+2025-10-13 13:28:06 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 13:28:07 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 13:28:07 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 13:28:07 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 13:28:07 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 13:28:07 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 25,
+    "number": "00000000025",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T08:28:07.6259917Z"
+}
+2025-10-13 13:28:07 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 13:28:07 [Test worker] INFO  ApiRequest - Body is {"amount":9999.0,"accountNumber":"00000000025"}
+2025-10-13 13:30:06 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 13:30:07 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 13:30:07 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 13:30:07 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 13:30:07 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 13:30:07 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 26,
+    "number": "00000000026",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T08:30:07.5950638Z"
+}
+2025-10-13 13:30:07 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 13:30:07 [Test worker] INFO  ApiRequest - Body is {"accountNumber":"00000000026","amount":9999.0}
+2025-10-13 13:30:48 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 13:30:49 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 13:30:49 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 13:30:49 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 13:30:49 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 13:30:49 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 27,
+    "number": "00000000027",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T08:30:49.7043526Z"
+}
+2025-10-13 13:30:49 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 13:30:50 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 13:30:50 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 13:30:50 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 13:30:50 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 13:30:50 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 28,
+    "number": "00000000028",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T08:30:50.5079056Z"
+}
+2025-10-13 13:38:07 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 13:38:07 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 13:38:07 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 13:38:07 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 13:38:07 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 13:38:08 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 29,
+    "number": "00000000029",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T08:38:07.924554Z"
+}
+2025-10-13 13:38:08 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-13 13:38:08 [Test worker] INFO  ApiRequest - Body is {"accountNumber":"00000000029","amount":9999.0}
+2025-10-13 13:49:32 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 13:49:33 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 13:49:33 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 13:49:33 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 13:49:33 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 13:49:33 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 30,
+    "number": "00000000030",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T08:49:33.4387381Z"
+}
+2025-10-13 13:49:33 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-13 13:49:33 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 12,
+            "number": "00000000012",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000029",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:38:08.108031Z",
+            "lastModified": null
+        },
+        {
+            "id": 11,
+            "number": "00000000011",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000026",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:30:07.74338Z",
+            "lastModified": null
+        },
+        {
+            "id": 10,
+            "number": "00000000010",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000025",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:28:07.7723Z",
+            "lastModified": null
+        },
+        {
+            "id": 9,
+            "number": "00000000009",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000024",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 9999.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-13T08:27:12.800139Z",
+            "lastModified": null
+        },
+        {
+            "id": 8,
+            "number": "00000000008",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000005",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 900.00,
+            "currency": "Kgs",
+            "status": "Pending",
+            "created": "2025-10-11T12:09:52.417712Z",
+            "lastModified": null
+        },
+        {
+            "id": 7,
+            "number": "00000000007",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000004",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 5000.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-11T12:09:20.27441Z",
+            "lastModified": "2025-10-13T07:57:11.388603Z"
+        },
+        {
+            "id": 6,
+            "number": "00000000006",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000004",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 5000.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-11T12:09:14.503311Z",
+            "lastModified": null
+        },
+        {
+            "id": 5,
+            "number": "00000000005",
+            "sourceAccount": {
+                "number": "00000000001",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000002",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 5.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-09T05:01:15.649685Z",
+            "lastModified": "2025-10-09T05:02:01.338884Z"
+        },
+        {
+            "id": 4,
+            "number": "00000000004",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000001",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 10.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-09T04:53:13.701959Z",
+            "lastModified": "2025-10-09T04:58:46.911843Z"
+        },
+        {
+            "id": 3,
+            "number": "00000000003",
+            "sourceAccount": null,
+            "destinationAccount": {
+                "number": "00000000001",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 50.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-09T04:40:18.845026Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 2,
+    "totalCount": 12,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-13 13:49:33 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-13 13:49:34 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-13 13:49:34 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-13 13:49:34 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-13 13:49:34 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-13 13:49:34 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 31,
+    "number": "00000000031",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-13T08:49:34.4290787Z"
+}
