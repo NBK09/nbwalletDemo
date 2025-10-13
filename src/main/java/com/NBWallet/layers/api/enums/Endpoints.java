@@ -28,7 +28,7 @@ public enum Endpoints {
 
     // manager segments
     BLACKLISTS("blacklists"),
-    STATUS("status");
+    TRANSACTION_STATUS_BY_ID("transactions/{id}/status");
 
     @Getter
     private final String path;
