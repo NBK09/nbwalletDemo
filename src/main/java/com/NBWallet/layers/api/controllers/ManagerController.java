@@ -85,17 +85,38 @@ public class ManagerController extends ApiRequest {
         return this.response.as(TransactionResponse.class);
     }
 
-    public void updateTransactionStatus(Long id, String newStatus) {
+    public void updateTransactionStatus(Long id, int status) {
+        // Формируем эндпоинт с подстановкой ID
         String endpoint = getEndpoint(
                 MANAGER_API.getPath(),
                 V1.getPath(),
                 TRANSACTION_STATUS_BY_ID.getPath()
         ).replace("{id}", String.valueOf(id));
 
-        // Формируем тело запроса (JSON)
-        var body = Map.of("status", newStatus);
+        // Формируем тело запроса, соответствующее Swagger-схеме
+        Map<String, Object> body = Map.of(
+                "id", id,
+                "status", status
+        );
 
+        // Выполняем PUT-запрос
         this.response = put(endpoint, ObjectConverter.convertJavaObjectToJsonObject(body));
-        log.info("Updated transaction {} status to '{}', response code: {}", id, newStatus, response.getStatusCode());
+
+        log.info("✅ Updated transaction {} → status '{}'; response code: {}",
+                id, status, response.getStatusCode());
+    }
+
+    public Response confirmTransaction(Long transactionId) {
+        Map<String, Object> body = Map.of(
+                "command", Map.of("status", "Approved") // именно так ожидает API
+        );
+
+        this.response = put(
+                getEndpoint(MANAGER_API.getPath(), V1.getPath(), TRANSACTIONS.getPath(), transactionId.toString(), "status"),
+                ObjectConverter.convertJavaObjectToJsonObject(body)
+        );
+
+        log.info("Updated transaction {} status to 'Approved', response code: {}", transactionId, response.statusCode());
+        return this.response;
     }
 }
