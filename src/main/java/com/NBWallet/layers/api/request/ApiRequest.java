@@ -9,6 +9,8 @@ import io.restassured.specification.RequestSpecification;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
+import static io.restassured.RestAssured.given;
+
 
 @Getter
 @Slf4j
@@ -41,7 +43,7 @@ public class ApiRequest {
 
     public Response get(String endpoint) {
         log.info("Performed GET {}", endpoint);
-        this.response = RestAssured.given()
+        this.response = given()
                 .spec(requestSpecification)
                 .get(endpoint);
         logResponse();
@@ -51,7 +53,7 @@ public class ApiRequest {
     public Response post(String endpoint, String body) {
         log.info("Performed POST {}", endpoint);
         log.info("Body is {}", body);
-        this.response = RestAssured.given()
+        this.response = given()
                 .spec(requestSpecification)
                 .body(body)
                 .post(endpoint);
@@ -59,14 +61,28 @@ public class ApiRequest {
         return this.response;
     }
 
-    public Response delete(String endpoint){
+    public Response delete(String endpoint, String body){
         log.info("Performed DELETE {}", endpoint);
-        this.response = RestAssured.given()
+        log.info("Body is {}", body);
+        this.response = given()
                 .spec(requestSpecification)
+                .body(body)
                 .delete(endpoint);
         logResponse();
         return this.response;
     }
+
+    public Response put(String endpoint, String body){
+        log.info("Performed PUT {}", endpoint);
+        log.info("Body is {}", body);
+        this.response = given()
+                .spec(requestSpecification)
+                .body(body)
+                .put(endpoint);
+        logResponse();
+        return this.response;
+    }
+
 
     private void logResponse() {
         log.warn("Response is \n{}", getResponse().getBody().asPrettyString());

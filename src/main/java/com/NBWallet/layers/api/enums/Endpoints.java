@@ -8,6 +8,7 @@ public enum Endpoints {
     API("api"),
     MANAGER_API("manager-api"),
     V1("v1"),
+    ID("id"),
 
     // auth
     AUTHENTICATION("authentication"),
