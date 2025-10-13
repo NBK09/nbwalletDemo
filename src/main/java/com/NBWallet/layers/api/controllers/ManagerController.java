@@ -3,15 +3,17 @@ package com.NBWallet.layers.api.controllers;
 import com.NBWallet.layers.api.DTO.AccountPlanResponse;
 import com.NBWallet.layers.api.DTO.CustomersResponse;
 import com.NBWallet.layers.api.models.AccountPlan;
+import com.NBWallet.layers.api.models.BlacklistRequest;
 import com.NBWallet.layers.api.request.ApiRequest;
 import com.NBWallet.layers.api.request.stratgy.AuthStrategy;
 import com.NBWallet.layers.api.utils.ObjectConverter;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 import lombok.extern.slf4j.Slf4j;
-import org.yaml.snakeyaml.events.Event;
 
 // 1
+
 import static com.NBWallet.layers.api.enums.Endpoints.*;
 @Slf4j
 public class ManagerController extends ApiRequest {
@@ -40,23 +42,42 @@ public class ManagerController extends ApiRequest {
         return this.response.as(AccountPlanResponse.class);
     }
 
-    public void deleteAccountPlan(String id){
-        this.response = delete(getEndpoint(MANAGER_API.getPath(), V1.getPath(), ACCOUNT_PLANS.getPath(),ID.getPath()),
-                ObjectConverter.convertJavaObjectToJsonObject(id));
+    public void deleteAccountPlan(Long id) {
+        String endpoint = getEndpoint(
+                MANAGER_API.getPath(), V1.getPath(), ACCOUNT_PLANS.getPath(), String.valueOf(id));
+        this.response = delete(endpoint);
+
     }
 
     public void putAccountPlan(AccountPlan accountPlan) {
-        // Выполняем запрос
-        this.response = put(
-                getEndpoint(MANAGER_API.getPath(), V1.getPath(), ACCOUNT_PLANS.getPath(), ID.getPath()),
-                ObjectConverter.convertJavaObjectToJsonObject(accountPlan)
-        );
+        String endpoint = getEndpoint(MANAGER_API.getPath(), V1.getPath(), ACCOUNT_PLANS.getPath(),
+                String.valueOf(accountPlan.getId()));
+        this.response = put(endpoint, ObjectConverter.convertJavaObjectToJsonObject(accountPlan));
+    }
+
+    // Blacklist
+    public BlacklistRequest addToBlacklist(BlacklistRequest request){
+        this.response = post(getEndpoint(MANAGER_API.getPath(), V1.getPath(), BLACKLISTS.getPath()),
+                ObjectConverter.convertJavaObjectToJsonObject(request));
+        return this.response.as(BlacklistRequest.class);
+    }
+
+    public Response getAllBlacklist(){
+        this.response = get(getEndpoint(MANAGER_API.getPath(),V1.getPath(),BLACKLISTS.getPath()));
+        return this.response;
     }
 
 
-
+// Customer
     public CustomersResponse getAllCustomers() {
         this.response = get(getEndpoint(MANAGER_API.toString(), V1.toString(), CUSTOMERS.toString()));
         return this.response.as(CustomersResponse.class);
+    }
+
+
+    //Transaction
+    public Response getAllTransaction(){
+        this.response = get(getEndpoint(MANAGER_API.getPath(), V1.getPath(), TRANSACTIONS.getPath()));
+        return this.response;
     }
 }

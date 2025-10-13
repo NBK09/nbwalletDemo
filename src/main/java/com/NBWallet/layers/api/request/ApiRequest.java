@@ -9,6 +9,8 @@ import io.restassured.specification.RequestSpecification;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.Map;
+
 import static io.restassured.RestAssured.given;
 
 
@@ -61,24 +63,48 @@ public class ApiRequest {
         return this.response;
     }
 
-    public Response delete(String endpoint, String body){
-        log.info("Performed DELETE {}", endpoint);
-        log.info("Body is {}", body);
-        this.response = given()
+    public Response post(String endpoint, Map<String, Object> formData) {
+        log.info("Performed POST (multipart) {}", endpoint);
+
+        RequestSpecification request = RestAssured.given()
                 .spec(requestSpecification)
-                .body(body)
-                .delete(endpoint);
+                .contentType(ContentType.MULTIPART);
+
+        if (formData != null) {
+            formData.forEach(request::multiPart);
+        }
+
+        this.response = request.post(endpoint);
+        log.info("Response status: {}", response.getStatusCode());
         logResponse();
         return this.response;
     }
 
-    public Response put(String endpoint, String body){
+    public Response delete(String endpoint) {
+        log.info("Performed DELETE {}", endpoint);
+
+        RequestSpecification request = RestAssured.given()
+                .spec(requestSpecification)
+                .contentType(ContentType.JSON)
+                .accept(ContentType.ANY);
+
+        this.response = request.delete(endpoint);
+
+        logResponse();
+        return this.response;
+    }
+
+    public Response put(String endpoint, Object body) {
         log.info("Performed PUT {}", endpoint);
         log.info("Body is {}", body);
-        this.response = given()
+
+        this.response = RestAssured.given()
                 .spec(requestSpecification)
+                .contentType(ContentType.JSON)
+                .accept(ContentType.ANY)
                 .body(body)
                 .put(endpoint);
+
         logResponse();
         return this.response;
     }
