@@ -9,6 +9,9 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static com.NBWallet.layers.api.enums.Endpoints.*;
 
 public class IdentityController extends ApiRequest {
@@ -18,23 +21,27 @@ public class IdentityController extends ApiRequest {
         this.URL = URL;
         requestSpecification = new RequestSpecBuilder()
                 .setPort(5050)
-                .setContentType(ContentType.JSON)
+                .setContentType(ContentType.MULTIPART)
                 .setBaseUri(this.URL)
                 .setAccept(ContentType.JSON)
-                .addHeader("Authorization", "Bearer " + token.getToken())
                 .build();
     }
 
     public Response signUpNewUser(Customer customer){
-        this.response = post(getEndpoint(API.getPath(),V1.getPath(),AUTHENTICATION.getPath(),SIGN_UP.getPath()),
-                ObjectConverter.convertJavaObjectToJsonObject(customer));
+        Map<String, Object> formData = new HashMap<>();
+        formData.put("FirstName", customer.getFirstName());
+        formData.put("LastName", customer.getLastName());
+        formData.put("Email", customer.getEmail());
+        formData.put("Password", customer.getPassword());
+        formData.put("PhoneNumber", customer.getPhoneNumber());
+        this.response = post(getEndpoint(API.getPath(),V1.getPath(),AUTHENTICATION.getPath(),SIGN_UP.getPath()), formData);
         return this.response;
     }
 
-//    public Response revokeUser(){
-//        this.response = delete(getEndpoint(API.getPath(), V1.getPath(),AUTHENTICATION.getPath(),REVOKE.getPath()));
-//        return this.response;
-//    }
+    public Response revokeUser(){
+        this.response = delete(getEndpoint(API.getPath(), V1.getPath(),AUTHENTICATION.getPath(),REVOKE.getPath()));
+        return this.response;
+    }
 
     public Token refreshToken(AuthStrategy authStrategy){
         this.response = post(getEndpoint(API.getPath(), V1.getPath(), AUTHENTICATION.getPath(),REFRESH.getPath()),
