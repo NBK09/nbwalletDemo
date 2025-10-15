@@ -12,23 +12,23 @@ public class AccountsCreatePage extends BasePage<AccountsCreatePage>{
 
     public SelenideElement accountPlans = $x("(//select[@id='source-account'])[1]");
     public SelenideElement accountCurrency = $x("(//select[@id='source-account'])[2]");
-    public SelenideElement btnSubmit = $x("//button[text()='Submit']");
+    public SelenideElement submitBtn = $x("//button[text()='Submit']");
 
 
     @Step("Select Account Plans {0}")
     public AccountsCreatePage selectAccountPlan(String selectText){
-        elementManager.selectByText(accountPlans, selectText);
+        elementManager.jsClick(accountPlans);
         return this;
     }
     @Step("Select Account Currency {0}")
     public AccountsCreatePage selectAccountCurrency(String selectText){
-        elementManager.selectByText(accountCurrency, selectText);
+        elementManager.jsClick(accountCurrency);
         return this;
     }
 
     @Step("Click button submit")
     public AccountsPage clickBtnSubmit(){
-        elementManager.click(btnSubmit);
+        elementManager.click(submitBtn);
         return Selenide.page(AccountsPage.class);
     }
 
