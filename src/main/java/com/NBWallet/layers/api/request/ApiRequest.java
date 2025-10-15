@@ -109,6 +109,23 @@ public class ApiRequest {
         return this.response;
     }
 
+    public Response put(String endpoint, Map<String, Object> formData) {
+        log.info("Performed PUT (multipart) {}", endpoint);
+
+        RequestSpecification request = RestAssured.given()
+                .spec(requestSpecification)
+                .contentType(ContentType.MULTIPART);
+
+        if (formData != null) {
+            formData.forEach(request::multiPart);
+        }
+
+        this.response = request.post(endpoint);
+        log.info("Response status: {}", response.getStatusCode());
+        logResponse();
+        return this.response;
+    }
+
 
     private void logResponse() {
         log.warn("Response is \n{}", getResponse().getBody().asPrettyString());

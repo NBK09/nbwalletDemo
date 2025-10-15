@@ -1,0 +1,42 @@
+2025-10-14 08:23:00 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-14 08:23:00 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-14 08:23:00 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-14 08:23:01 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-14 08:23:03 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-14 08:23:03 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 51,
+    "number": "00000000051",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-14T03:23:05.6962196Z"
+}
+2025-10-14 08:23:03 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-14 08:23:03 [Test worker] INFO  ApiRequest - Body is {"accountNumber":"00000000051","amount":9999}
+2025-10-14 08:28:03 [Test worker] WARN  ApiRequest - Response is 
+[
+    "Something went wrong"
+]
+2025-10-14 11:31:26 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-14 11:31:26 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-14 11:31:26 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-14 11:31:27 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-14 11:31:27 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":2}
+2025-10-14 11:31:27 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 53,
+    "number": "00000000053",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-14T06:31:27.4507718Z"
+}
+2025-10-14 11:31:27 [Test worker] INFO  ApiRequest - Performed POST api/v1/transactions/add-funds
+2025-10-14 11:31:27 [Test worker] INFO  ApiRequest - Body is {"accountNumber":"00000000053","amount":9999}

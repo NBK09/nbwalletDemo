@@ -1,4 +1,4 @@
-package com.NBWallet.layers.api.DTO;
+package com.NBWallet.layers.api.DTO.customerDTO;
 
 import com.NBWallet.layers.api.models.Customer;
 import lombok.AllArgsConstructor;

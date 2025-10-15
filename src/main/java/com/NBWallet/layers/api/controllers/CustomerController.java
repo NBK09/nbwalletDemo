@@ -1,7 +1,13 @@
 package com.NBWallet.layers.api.controllers;
 
 
-import com.NBWallet.layers.api.DTO.*;
+import com.NBWallet.layers.api.DTO.accountDTO.AccountResponse;
+import com.NBWallet.layers.api.DTO.accountDTO.AccountTransactionLimitDto;
+import com.NBWallet.layers.api.DTO.transactionDTO.AddFundsRequest;
+import com.NBWallet.layers.api.DTO.transactionDTO.TransactionItemDto;
+import com.NBWallet.layers.api.DTO.transactionDTO.TransactionRequest;
+import com.NBWallet.layers.api.DTO.transactionDTO.TransactionResponse;
+import com.NBWallet.layers.api.models.Customer;
 import com.NBWallet.layers.api.request.ApiRequest;
 import com.NBWallet.layers.api.request.stratgy.AuthStrategy;
 import com.NBWallet.layers.api.utils.ObjectConverter;
@@ -11,10 +17,12 @@ import io.restassured.response.Response;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import static com.NBWallet.layers.api.enums.Endpoints.*;
+
 @Slf4j
 public class CustomerController extends ApiRequest {
     public CustomerController(String URL, AuthStrategy token) {
@@ -29,56 +37,65 @@ public class CustomerController extends ApiRequest {
                 .build();
     }
 
-    public Response getAllAccount(){
+    //Account
+    public Response getAllAccount() {
         this.response = get(getEndpoint(API.getPath(), V1.getPath(), ACCOUNT.getPath()));
         return this.response;
     }
 
-    public AccountResponse createNewAccount(AccountResponse accountResponse){
-        this.response = post(getEndpoint(API.getPath(), V1.getPath(),ACCOUNT.getPath()),
+    public AccountResponse createNewAccount(AccountResponse accountResponse) {
+        this.response = post(getEndpoint(API.getPath(), V1.getPath(), ACCOUNT.getPath()),
                 ObjectConverter.convertJavaObjectToJsonObject(accountResponse));
         return this.response.as(AccountResponse.class);
     }
 
-    public Response getAllAccountPlan(){
+    //Account_plan
+    public Response getAllAccountPlan() {
         this.response = get(getEndpoint(API.getPath(), V1.getPath(), ACCOUNT_PLANS.getPath()));
         return this.response;
     }
 
-    public AccountTransactionLimitDto createAccountLimit(AccountTransactionLimitDto accountTransactionLimitDto){
+    // Account transaction limit
+    public AccountTransactionLimitDto createAccountLimit(AccountTransactionLimitDto accountTransactionLimitDto) {
         this.response = post(getEndpoint(API.getPath(), V1.getPath(), ACCOUNT_TRANSACTION_LIMITS.getPath()),
                 ObjectConverter.convertJavaObjectToJsonObject(accountTransactionLimitDto));
         return this.response.as(AccountTransactionLimitDto.class);
     }
 
-    public Response getAllLimit(){
+    public Response getAllLimit() {
         this.response = get(getEndpoint(API.getPath(), V1.getPath(), ACCOUNT_TRANSACTION_LIMITS.getPath()));
         return this.response;
     }
 
-    public AccountTransactionLimitDto editAccountLimit(AccountTransactionLimitDto accountTransactionLimitDto){
+    public AccountTransactionLimitDto editAccountLimit(AccountTransactionLimitDto accountTransactionLimitDto) {
         this.response = put(getEndpoint(API.getPath(), V1.getPath(), ACCOUNT_TRANSACTION_LIMITS.getPath()),
                 ObjectConverter.convertJavaObjectToJsonObject(accountTransactionLimitDto));
         return this.response.as(AccountTransactionLimitDto.class);
     }
 
-    public Response deleteAccountLimit(String id){
+    public Response deleteAccountLimit(String id) {
         this.response = delete(getEndpoint(API.getPath(), V1.getPath(), ACCOUNT_TRANSACTION_LIMITS.getPath(), id));
         return this.response;
     }
 
+    //Customer
     public Response deleteCustomer() {
         String endpoint = getEndpoint(MANAGER_API.getPath(), V1.getPath(), CUSTOMERS.getPath());
         this.response = delete(endpoint);
         return this.response;
     }
 
-    // ===================== 🏦 ТРАНЗАКЦИИ =====================
+    public Customer editCustomerAccount(Customer customer) {
+        Map<String, Object> formData = new HashMap<>();
+        formData.put("FirstName", customer.getFirstName());
+        formData.put("LastName", customer.getLastName());
+        formData.put("Email", customer.getEmail());
+        formData.put("PhoneNumber", customer.getPhoneNumber());
+        this.response = put(getEndpoint(API.getPath(), V1.getPath(), CUSTOMERS.getPath()), formData);
+        return this.response.as(Customer.class);
+    }
 
-    /**
-     * POST /api/v1/transactions
-     * Создаёт новую транзакцию между аккаунтами
-     */
+    // Transaction
     public List<TransactionItemDto> createTransaction(TransactionRequest request) {
         this.response = post(getEndpoint(API.getPath(), V1.getPath(), TRANSACTIONS.getPath()),
                 ObjectConverter.convertJavaObjectToJsonObject(request));
@@ -98,10 +115,6 @@ public class CustomerController extends ApiRequest {
         }
     }
 
-    /**
-     * GET /api/v1/transactions
-     * Получает список всех транзакций пользователя
-     */
     public TransactionResponse getAllTransactions() {
         this.response = get(
                 getEndpoint(API.getPath(), V1.getPath(), TRANSACTIONS.getPath())
@@ -109,10 +122,6 @@ public class CustomerController extends ApiRequest {
         return this.response.as(TransactionResponse.class);
     }
 
-    /**
-     * GET /api/v1/transactions/info/{id}
-     * Получает информацию о конкретной транзакции
-     */
     public TransactionItemDto getTransactionInfo(String transactionId) {
         this.response = get(
                 getEndpoint(API.getPath(), V1.getPath(), TRANSACTIONS.getPath(), INFO.getPath(), transactionId)
@@ -120,13 +129,9 @@ public class CustomerController extends ApiRequest {
         return this.response.as(TransactionItemDto.class);
     }
 
-    /**
-     * POST /api/v1/transactions/add-funds
-     * Пополняет баланс аккаунта
-     */
     public AddFundsRequest addFunds(String accountNumber, int amount) {
         var body = Map.of("accountNumber", accountNumber,
-                                                                                            "amount", amount);
+                "amount", amount);
         this.response = post(
                 getEndpoint(API.getPath(), V1.getPath(), TRANSACTIONS.getPath(), ADD_FUNDS.getPath()),
                 ObjectConverter.convertJavaObjectToJsonObject(body)

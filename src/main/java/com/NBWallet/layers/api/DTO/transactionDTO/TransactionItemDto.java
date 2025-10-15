@@ -1,5 +1,6 @@
-package com.NBWallet.layers.api.DTO;
+package com.NBWallet.layers.api.DTO.transactionDTO;
 
+import com.NBWallet.layers.api.DTO.accountDTO.AccountInfoDto;
 import lombok.*;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.time.LocalDateTime;

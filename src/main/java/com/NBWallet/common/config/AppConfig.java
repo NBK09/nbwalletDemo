@@ -19,11 +19,29 @@ public interface AppConfig extends Config {
     // Здесь явно видно DIP: все потребители читают значения через этот интерфейс, не зная как он реализован.
 
     @Key("base.url")
-    String baseUrl();  // базовый URL приложения
+    String baseUrl();  // базовый URL приложения для API
 
     @Key("headless.mode")
     boolean headless(); // режим headless для браузера
 
     @Key("bearer.token")
     String bearer_token(); // токен
+
+    @Key("docker.remote")
+    boolean remote();
+
+    @Key("remote.url.docker")
+    String dockerUrl();
+
+    @Key("server")
+    String server();
+
+    @Key("port")
+    Integer port();
+
+    @Key("user")
+    String user();
+
+    @Key("sqlpassword")
+    String sqlpassword();
 }
