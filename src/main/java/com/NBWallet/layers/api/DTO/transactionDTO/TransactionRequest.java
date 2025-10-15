@@ -1,4 +1,4 @@
-package com.NBWallet.layers.api.DTO;
+package com.NBWallet.layers.api.DTO.transactionDTO;
 
 import lombok.*;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -8,7 +8,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @AllArgsConstructor
 @Builder
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class AddFundsRequest {
-    private String accountNumber;
+public class TransactionRequest {
     private double amount;
+    private String sourceAccountNumber;
+    private String destinationAccountNumber;
+    private String notes;
 }

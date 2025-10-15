@@ -1,9 +1,8 @@
 package com.NBWallet.layers.api.controllers;
 
-import com.NBWallet.layers.api.DTO.AccountPlanResponse;
-import com.NBWallet.layers.api.DTO.CustomersResponse;
-import com.NBWallet.layers.api.DTO.TransactionItemDto;
-import com.NBWallet.layers.api.DTO.TransactionResponse;
+import com.NBWallet.layers.api.DTO.accountDTO.AccountPlanResponse;
+import com.NBWallet.layers.api.DTO.customerDTO.CustomersResponse;
+import com.NBWallet.layers.api.DTO.transactionDTO.TransactionResponse;
 import com.NBWallet.layers.api.models.AccountPlan;
 import com.NBWallet.layers.api.models.BlacklistRequest;
 import com.NBWallet.layers.api.request.ApiRequest;

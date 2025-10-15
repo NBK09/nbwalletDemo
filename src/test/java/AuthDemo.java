@@ -1,9 +1,6 @@
 import com.NBWallet.common.config.ConfigurationManager;
-import com.NBWallet.layers.api.DTO.AccountPlanResponse;
 import com.NBWallet.layers.api.controllers.IdentityController;
 import com.NBWallet.layers.api.controllers.ManagerController;
-import com.NBWallet.layers.api.models.AccountPlan;
-import com.NBWallet.layers.api.models.BlacklistRequest;
 import com.NBWallet.layers.api.request.stratgy.AuthStrategy;
 import com.NBWallet.layers.api.request.stratgy.AuthStrategyFactory;
 import org.junit.jupiter.api.Test;

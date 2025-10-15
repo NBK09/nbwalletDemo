@@ -1,4 +1,4 @@
-package com.NBWallet.layers.api.DTO;
+package com.NBWallet.layers.api.DTO.accountDTO;
 
 import com.NBWallet.layers.api.models.AccountPlan;
 import lombok.AllArgsConstructor;
