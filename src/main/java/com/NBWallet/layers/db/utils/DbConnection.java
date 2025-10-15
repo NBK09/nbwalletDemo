@@ -20,20 +20,22 @@ public class DbConnection {
         }};
         return dataSource;
     }
-     public static void openConnection(String db) {
-        try (
-            Connection connection = getBaseDataSource(db).getConnection();
-            Statement statement = connection.createStatement(
+    public static void openConnection(String db) {
+        try {
+            connection = getBaseDataSource(db).getConnection();
+            statement = connection.createStatement(
                     ResultSet.TYPE_SCROLL_INSENSITIVE,
-                    ResultSet.CONCUR_READ_ONLY)
-        ) {
-            // здесь выполняем SQL-запросы
+                    ResultSet.CONCUR_READ_ONLY
+            );
+
+            // Проверим, что соединение реально установлено
             ResultSet rs = statement.executeQuery("SELECT 1");
-            while (rs.next()) {
-                System.out.println("Result: " + rs.getInt(1));
+            if (rs.next()) {
+                System.out.println("✅ Connected to DB, test query result: " + rs.getInt(1));
             }
+
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException("❌ Ошибка при подключении к БД: " + e.getMessage(), e);
         }
     }
 
@@ -46,6 +48,24 @@ public class DbConnection {
                 preparedStatement.setObject(i + 1, params[i]);
             }
             return preparedStatement.executeQuery();
+        }
+    }
+
+    public static int executeUpdate(String query, Object... params) throws SQLException {
+        PreparedStatement preparedStatement = connection.prepareStatement(query);
+        for (int i = 0; i < params.length; i++) {
+            preparedStatement.setObject(i + 1, params[i]);
+        }
+        return preparedStatement.executeUpdate();
+    }
+
+    public static void closeConnection() {
+        try {
+            if (statement != null) statement.close();
+            if (connection != null) connection.close();
+            System.out.println("🔒 Connection closed.");
+        } catch (SQLException e) {
+            System.err.println("⚠️ Ошибка при закрытии соединения: " + e.getMessage());
         }
     }
 }

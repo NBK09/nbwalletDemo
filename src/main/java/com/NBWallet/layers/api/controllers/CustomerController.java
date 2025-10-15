@@ -1,6 +1,7 @@
 package com.NBWallet.layers.api.controllers;
 
 
+import com.NBWallet.layers.api.DTO.accountDTO.AccountPageResponse;
 import com.NBWallet.layers.api.DTO.accountDTO.AccountResponse;
 import com.NBWallet.layers.api.DTO.accountDTO.AccountTransactionLimitDto;
 import com.NBWallet.layers.api.DTO.transactionDTO.AddFundsRequest;
@@ -35,6 +36,17 @@ public class CustomerController extends ApiRequest {
                 .setAccept(ContentType.JSON)
                 .addHeader("Authorization", "Bearer " + token.getToken())
                 .build();
+    }
+
+    public AccountResponse getCreatedInDbAccount(int pageIndex) {
+        this.response = get(getEndpoint(API.getPath(), V1.getPath(), ACCOUNT.getPath()));
+
+        AccountPageResponse page = this.response.as(AccountPageResponse.class);
+        if (page.getItems() != null && !page.getItems().isEmpty()) {
+            return page.getItems().get(pageIndex); // ← вернёт первый счёт
+        } else {
+            throw new IllegalStateException("No accounts found in response");
+        }
     }
 
     //Account
