@@ -11,6 +11,7 @@ import com.NBWallet.layers.api.data.UserFactory;
 import com.NBWallet.layers.api.models.Customer;
 import com.NBWallet.layers.api.request.stratgy.AuthStrategy;
 import com.NBWallet.layers.api.request.stratgy.AuthStrategyFactory;
+import com.NBWallet.layers.db.repositories.AccountRepository;
 import com.NBWallet.layers.db.utils.DbConnection;
 import com.NBWallet.layers.web.page.LoginPage;
 import org.junit.jupiter.api.Assertions;
@@ -22,6 +23,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class TransferTest extends BaseWebTest {
+
+    private final AccountRepository accountRepository = new AccountRepository();
 
     @Tag("E2E")
     @Test

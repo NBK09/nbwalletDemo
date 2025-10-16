@@ -18,4 +18,8 @@ public class ConfigurationManager {
     public static AppConfig getAppConfig() {
         return ConfigCache.getOrCreate(AppConfig.class);
     }
+
+    public static DbConnectionConfiguration getDbConfig() {
+        return ConfigCache.getOrCreate(DbConnectionConfiguration.class);
+    }
 }

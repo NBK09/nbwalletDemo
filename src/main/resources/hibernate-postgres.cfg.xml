@@ -7,7 +7,8 @@
         <property name="hibernate.hbm2ddl.auto">validate</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
-        <mapping class="com.geniusto.common.layers.db.entities.DwhCustomerAmended"/>
-        <mapping class="com.geniusto.common.layers.db.entities.DwhCustomerAmendedField"/>
+
+        <mapping class="com.NBWallet.layers.db.entities.Account"/>
+        <mapping class="com.NBWallet.layers.db.entities.AccountPlan"/>
     </session-factory>
 </hibernate-configuration>
