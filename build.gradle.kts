@@ -121,7 +121,7 @@ tasks.register<Test>("smokeTest") {
     }
 }
 
-    tasks.register<Test>("E2E") {
+    tasks.register<Test>("E2ETest") {
         group = "verification"
         description = "Runs tests tagged with @Tag(\"E2E\")"
         useJUnitPlatform {
