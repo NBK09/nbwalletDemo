@@ -17,7 +17,6 @@ public class BaseWebTest {
     private final String BASE_URL = getAppConfig().baseUrl();
     private final String PORT = ":8080";
     protected static AuthStrategy managerToken;
-    protected static AuthStrategy customerToken;
 
 
 

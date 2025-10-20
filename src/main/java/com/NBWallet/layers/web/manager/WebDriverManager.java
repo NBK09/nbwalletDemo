@@ -21,6 +21,9 @@ public class WebDriverManager {
         headless = getAppConfig().headless();
         if (getAppConfig().remote()) {
             Configuration.remote = getAppConfig().dockerUrl();
+            Configuration.browserCapabilities.setCapability("enableVNC", true);
+            Configuration.browserCapabilities.setCapability("enableVideo", true);
+
         } else Configuration.downloadsFolder = "temp";
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--disable-extensions",

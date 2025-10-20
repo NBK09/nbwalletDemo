@@ -43,7 +43,7 @@ public class CustomerTest {
 //
 //        accountPlanRepository.create(accountToCreate);
 
-        var accountToUpdate = accountPlanRepository.getByName("Gold4");
+        var accountToUpdate = accountPlanRepository.getByName("Gold");
 
         accountToUpdate.setName("Gold10");
         accountToUpdate.setAnnualServicePrice(1500.23);

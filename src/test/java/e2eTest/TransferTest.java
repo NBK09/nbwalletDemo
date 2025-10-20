@@ -26,7 +26,7 @@ public class TransferTest extends BaseWebTest {
 
     private final AccountRepository accountRepository = new AccountRepository();
 
-    @Tag("E2E")
+    @Tag("Smoke")
     @Test
     void transferTest() throws SQLException, InterruptedException {
 

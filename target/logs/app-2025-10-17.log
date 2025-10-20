@@ -1,0 +1,2760 @@
+2025-10-15 12:40:54 [Test worker] INFO  ApiRequest - Performed DELETE manager-api/v1/customers
+2025-10-15 12:40:54 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:13:32 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:13:32 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:13:32 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:13:33 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:13:37 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:14:04 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:14:04 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:14:04 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:14:04 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:14:05 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:14:40 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:14:41 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:14:41 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:14:41 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:14:42 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:17:07 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:17:07 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:17:07 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:17:08 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:17:09 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:29:16 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:29:17 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:29:17 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:29:17 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:29:18 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:39:17 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:39:18 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:39:18 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:39:18 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:39:19 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:41:34 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:41:34 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:41:34 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:41:35 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:41:36 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:46:14 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:46:15 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:46:15 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:46:15 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:46:16 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:49:16 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:49:17 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:49:17 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:49:17 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:49:18 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:49:40 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:49:40 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:49:40 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:49:41 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:49:42 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:50:33 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:50:33 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:50:33 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:50:37 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:50:38 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:50:56 [Test worker] INFO  ApiRequest - Performed GET api/v1/account
+2025-10-15 15:50:56 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 73,
+            "number": "00000000073",
+            "balance": 0.00,
+            "currency": 1,
+            "status": 0,
+            "accountPlan": {
+                "id": 3,
+                "name": "Platinum",
+                "annualServicePrice": 1000.00
+            },
+            "accountTransactionLimit": null,
+            "createdDate": "2025-10-15T10:50:55.832177Z"
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 1,
+    "totalCount": 1,
+    "hasPreviousPage": true,
+    "hasNextPage": false
+}
+2025-10-15 15:53:01 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 15:53:01 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 15:53:01 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 15:53:05 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 15:53:06 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 15:53:23 [Test worker] INFO  ApiRequest - Performed GET api/v1/account
+2025-10-15 15:53:23 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 74,
+            "number": "00000000074",
+            "balance": 0.00,
+            "currency": 1,
+            "status": 0,
+            "accountPlan": {
+                "id": 3,
+                "name": "Platinum",
+                "annualServicePrice": 1000.00
+            },
+            "accountTransactionLimit": null,
+            "createdDate": "2025-10-15T10:53:23.614288Z"
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 1,
+    "totalCount": 1,
+    "hasPreviousPage": true,
+    "hasNextPage": false
+}
+2025-10-15 16:02:20 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:02:20 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:02:20 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:02:24 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 16:02:25 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 16:03:01 [Test worker] WARN  WebPageSourceExtractor - Failed to save page source to 1760526181154.0
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfd508cd34e234cc31af547a711d576c, getPageSource {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 141.0.7390.76, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59076}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59076/devtoo..., se:cdpVersion: 141.0.7390.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfd508cd34e234cc31af547a711d576c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:394) ~[selenium-remote-driver-4.30.0.jar:?]
+	at com.codeborne.selenide.impl.WebPageSourceExtractor.extract(WebPageSourceExtractor.java:33) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.WebPageSourceExtractor.extract(WebPageSourceExtractor.java:26) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.savePageSourceToFile(ScreenShotLaboratory.java:278) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.takeScreenShot(ScreenShotLaboratory.java:119) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.lambda$takeScreenshot$14(ScreenShotLaboratory.java:370) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.ifReportsFolderNotNull(ScreenShotLaboratory.java:448) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.lambda$takeScreenshot$15(ScreenShotLaboratory.java:369) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.ifWebDriverStarted(ScreenShotLaboratory.java:438) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.takeScreenshot(ScreenShotLaboratory.java:368) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.ex.UIAssertionError.wrapThrowable(UIAssertionError.java:113) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.ex.UIAssertionError.wrap(UIAssertionError.java:95) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:88) ~[selenide-core-7.8.1.jar:7.8.1]
+	at jdk.proxy3/jdk.proxy3.$Proxy44.shouldBe(Unknown Source) ~[?:?]
+	at com.NBWallet.layers.web.manager.ElementManager.click(ElementManager.java:16) ~[main/:?]
+	at com.NBWallet.layers.web.page.AccountsPage.clickBtnCreate(AccountsPage.java:18) ~[main/:?]
+	at e2eTest.TransferTest.transferTest(TransferTest.java:57) ~[test/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:119) ~[junit-jupiter-api-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92) [gradle-messaging-8.10.jar:8.10]
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56) [gradle-worker-main-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121) [gradle-worker-main-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71) [gradle-worker-main-8.10.jar:8.10]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) [gradle-worker.jar:?]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) [gradle-worker.jar:?]
+2025-10-15 16:03:01 [Test worker] ERROR ScreenShotLaboratory - Failed to take screenshot to 1760526181154.0
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfd508cd34e234cc31af547a711d576c, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 141.0.7390.76, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59076}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59076/devtoo..., se:cdpVersion: 141.0.7390.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfd508cd34e234cc31af547a711d576c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.30.0.jar:?]
+	at com.codeborne.selenide.impl.WebdriverPhotographer.takeScreenshot(WebdriverPhotographer.java:13) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.savePageImageToFile(ScreenShotLaboratory.java:253) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.takeScreenShot(ScreenShotLaboratory.java:120) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.lambda$takeScreenshot$14(ScreenShotLaboratory.java:370) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.ifReportsFolderNotNull(ScreenShotLaboratory.java:448) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.lambda$takeScreenshot$15(ScreenShotLaboratory.java:369) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.ifWebDriverStarted(ScreenShotLaboratory.java:438) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.ScreenShotLaboratory.takeScreenshot(ScreenShotLaboratory.java:368) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.ex.UIAssertionError.wrapThrowable(UIAssertionError.java:113) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.ex.UIAssertionError.wrap(UIAssertionError.java:95) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:88) ~[selenide-core-7.8.1.jar:7.8.1]
+	at jdk.proxy3/jdk.proxy3.$Proxy44.shouldBe(Unknown Source) ~[?:?]
+	at com.NBWallet.layers.web.manager.ElementManager.click(ElementManager.java:16) ~[main/:?]
+	at com.NBWallet.layers.web.page.AccountsPage.clickBtnCreate(AccountsPage.java:18) ~[main/:?]
+	at e2eTest.TransferTest.transferTest(TransferTest.java:57) ~[test/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:119) ~[junit-jupiter-api-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92) [gradle-messaging-8.10.jar:8.10]
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56) [gradle-worker-main-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121) [gradle-worker-main-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71) [gradle-worker-main-8.10.jar:8.10]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) [gradle-worker.jar:?]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) [gradle-worker.jar:?]
+2025-10-15 16:03:01 [Test worker] WARN  AllureSelenide - Could not get screen shot
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfd508cd34e234cc31af547a711d576c, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 141.0.7390.76, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59076}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59076/devtoo..., se:cdpVersion: 141.0.7390.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfd508cd34e234cc31af547a711d576c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.30.0.jar:?]
+	at io.qameta.allure.selenide.AllureSelenide.getScreenshotBytes(AllureSelenide.java:96) ~[allure-selenide-2.30.0.jar:2.30.0]
+	at io.qameta.allure.selenide.AllureSelenide.lambda$afterEvent$4(AllureSelenide.java:134) ~[allure-selenide-2.30.0.jar:2.30.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at io.qameta.allure.selenide.AllureSelenide.afterEvent(AllureSelenide.java:132) ~[allure-selenide-2.30.0.jar:2.30.0]
+	at com.codeborne.selenide.logevents.SelenideLogger.commitStep(SelenideLogger.java:89) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.logevents.SelenideLogger.commitStep(SelenideLogger.java:80) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:89) ~[selenide-core-7.8.1.jar:7.8.1]
+	at jdk.proxy3/jdk.proxy3.$Proxy44.shouldBe(Unknown Source) ~[?:?]
+	at com.NBWallet.layers.web.manager.ElementManager.click(ElementManager.java:16) ~[main/:?]
+	at com.NBWallet.layers.web.page.AccountsPage.clickBtnCreate(AccountsPage.java:18) ~[main/:?]
+	at e2eTest.TransferTest.transferTest(TransferTest.java:57) ~[test/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:119) ~[junit-jupiter-api-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92) [gradle-messaging-8.10.jar:8.10]
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56) [gradle-worker-main-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121) [gradle-worker-main-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71) [gradle-worker-main-8.10.jar:8.10]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) [gradle-worker.jar:?]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) [gradle-worker.jar:?]
+2025-10-15 16:03:01 [Test worker] WARN  AllureSelenide - Could not get page source
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfd508cd34e234cc31af547a711d576c, getPageSource {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 141.0.7390.76, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59076}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59076/devtoo..., se:cdpVersion: 141.0.7390.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfd508cd34e234cc31af547a711d576c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:394) ~[selenium-remote-driver-4.30.0.jar:?]
+	at io.qameta.allure.selenide.AllureSelenide.getPageSourceBytes(AllureSelenide.java:107) ~[allure-selenide-2.30.0.jar:2.30.0]
+	at io.qameta.allure.selenide.AllureSelenide.lambda$afterEvent$4(AllureSelenide.java:138) ~[allure-selenide-2.30.0.jar:2.30.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at io.qameta.allure.selenide.AllureSelenide.afterEvent(AllureSelenide.java:132) ~[allure-selenide-2.30.0.jar:2.30.0]
+	at com.codeborne.selenide.logevents.SelenideLogger.commitStep(SelenideLogger.java:89) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.logevents.SelenideLogger.commitStep(SelenideLogger.java:80) ~[selenide-core-7.8.1.jar:7.8.1]
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:89) ~[selenide-core-7.8.1.jar:7.8.1]
+	at jdk.proxy3/jdk.proxy3.$Proxy44.shouldBe(Unknown Source) ~[?:?]
+	at com.NBWallet.layers.web.manager.ElementManager.click(ElementManager.java:16) ~[main/:?]
+	at com.NBWallet.layers.web.page.AccountsPage.clickBtnCreate(AccountsPage.java:18) ~[main/:?]
+	at e2eTest.TransferTest.transferTest(TransferTest.java:57) ~[test/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:119) ~[junit-jupiter-api-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94) [gradle-testing-junit-platform-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) [gradle-messaging-8.10.jar:8.10]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92) [gradle-messaging-8.10.jar:8.10]
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63) [gradle-testing-base-infrastructure-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56) [gradle-worker-main-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121) [gradle-worker-main-8.10.jar:8.10]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71) [gradle-worker-main-8.10.jar:8.10]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) [gradle-worker.jar:?]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) [gradle-worker.jar:?]
+2025-10-15 16:08:21 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:08:21 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:08:21 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:08:21 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:08:21 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:08:22 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 75,
+    "number": "00000000075",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:08:23.052631Z"
+}
+2025-10-15 16:11:33 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:11:33 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:11:33 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:11:34 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:11:34 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:11:34 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 76,
+    "number": "00000000076",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:11:35.2165647Z"
+}
+2025-10-15 16:15:35 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:15:35 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:15:35 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:15:36 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:15:36 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:15:36 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 77,
+    "number": "00000000077",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:15:37.1803986Z"
+}
+2025-10-15 16:17:10 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:17:10 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:17:10 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:17:10 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:17:10 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:17:10 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 78,
+    "number": "00000000078",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:17:12.0244702Z"
+}
+2025-10-15 16:17:11 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:17:11 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:17:11 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:17:11 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:17:11 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:17:11 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 79,
+    "number": "00000000079",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:17:12.93263Z"
+}
+2025-10-15 16:30:53 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:30:53 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:30:53 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:30:53 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:30:53 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:30:53 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 80,
+    "number": "00000000080",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:30:54.9330528Z"
+}
+2025-10-15 16:30:54 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:30:54 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:30:54 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:30:54 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:30:54 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:30:54 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 81,
+    "number": "00000000081",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:30:55.8667761Z"
+}
+2025-10-15 16:30:54 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 16:30:56 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 16:38:27 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:38:28 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:38:28 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:38:28 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:38:28 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:38:28 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 82,
+    "number": "00000000082",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:38:29.7821106Z"
+}
+2025-10-15 16:38:29 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:38:29 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:38:29 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:38:29 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:38:29 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:38:29 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 83,
+    "number": "00000000083",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:38:30.6821108Z"
+}
+2025-10-15 16:38:29 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 16:38:30 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 16:43:55 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:43:56 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:43:56 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:43:56 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:43:56 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:43:56 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 84,
+    "number": "00000000084",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:43:57.7982084Z"
+}
+2025-10-15 16:43:57 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:43:57 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:43:57 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:43:57 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:43:57 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:43:57 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 85,
+    "number": "00000000085",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:43:58.7207816Z"
+}
+2025-10-15 16:43:57 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 16:43:58 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 16:44:36 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:44:36 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:44:36 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:44:37 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:44:37 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:44:37 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 86,
+    "number": "00000000086",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:44:38.4834918Z"
+}
+2025-10-15 16:44:37 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:44:38 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:44:38 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:44:38 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:44:38 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:44:38 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 87,
+    "number": "00000000087",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:44:39.3927175Z"
+}
+2025-10-15 16:44:38 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 16:44:39 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 16:48:24 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:48:24 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:48:24 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:48:25 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:48:25 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:48:25 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 88,
+    "number": "00000000088",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:48:26.3616989Z"
+}
+2025-10-15 16:48:25 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:48:26 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:48:26 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:48:26 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:48:26 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:48:26 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 89,
+    "number": "00000000089",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:48:27.6924021Z"
+}
+2025-10-15 16:48:26 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 16:48:27 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 16:48:34 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-15 16:48:34 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 79,
+            "number": "00000000079",
+            "sourceAccount": {
+                "number": "00000000088",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000089",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:48:35.65698Z",
+            "lastModified": null
+        },
+        {
+            "id": 78,
+            "number": "00000000078",
+            "sourceAccount": {
+                "number": "00000000086",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000087",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:44:46.855951Z",
+            "lastModified": null
+        },
+        {
+            "id": 77,
+            "number": "00000000077",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.505256Z",
+            "lastModified": null
+        },
+        {
+            "id": 76,
+            "number": "00000000076",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.317616Z",
+            "lastModified": null
+        },
+        {
+            "id": 75,
+            "number": "00000000075",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.137388Z",
+            "lastModified": null
+        },
+        {
+            "id": 74,
+            "number": "00000000074",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:13.876742Z",
+            "lastModified": null
+        },
+        {
+            "id": 73,
+            "number": "00000000073",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:13.687258Z",
+            "lastModified": null
+        },
+        {
+            "id": 72,
+            "number": "00000000072",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:12.565059Z",
+            "lastModified": null
+        },
+        {
+            "id": 71,
+            "number": "00000000071",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:09:49.593918Z",
+            "lastModified": null
+        },
+        {
+            "id": 70,
+            "number": "00000000070",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:09:49.449382Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 8,
+    "totalCount": 73,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-15 16:48:34 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/transactions/79/status
+2025-10-15 16:48:34 [Test worker] INFO  ApiRequest - Body is {"status":1,"id":79}
+2025-10-15 16:48:34 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:48:34 [Test worker] INFO  ManagerController - ✅ Updated transaction 79 → status '1'; response code: 200
+2025-10-15 16:48:34 [Test worker] INFO  ApiRequest - Performed GET api/v1/account
+2025-10-15 16:48:34 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 89,
+            "number": "00000000089",
+            "balance": 0.00,
+            "currency": 1,
+            "status": 0,
+            "accountPlan": {
+                "id": 3,
+                "name": "Platinum",
+                "annualServicePrice": 1000.00
+            },
+            "accountTransactionLimit": null,
+            "createdDate": "2025-10-15T11:48:27.692402Z"
+        },
+        {
+            "id": 88,
+            "number": "00000000088",
+            "balance": 1000.00,
+            "currency": 1,
+            "status": 0,
+            "accountPlan": {
+                "id": 3,
+                "name": "Platinum",
+                "annualServicePrice": 1000.00
+            },
+            "accountTransactionLimit": null,
+            "createdDate": "2025-10-15T11:48:26.361698Z"
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 1,
+    "totalCount": 2,
+    "hasPreviousPage": true,
+    "hasNextPage": false
+}
+2025-10-15 16:48:34 [Test worker] INFO  ApiRequest - Performed GET api/v1/account
+2025-10-15 16:48:35 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        
+    ],
+    "pageNumber": 1,
+    "totalPages": 0,
+    "totalCount": 0,
+    "hasPreviousPage": true,
+    "hasNextPage": false
+}
+2025-10-15 16:50:50 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:50:50 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:50:50 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:50:50 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:50:50 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:50:50 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 90,
+    "number": "00000000090",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:50:52.0255492Z"
+}
+2025-10-15 16:50:51 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:50:51 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:50:51 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:50:52 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:50:52 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:50:52 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 91,
+    "number": "00000000091",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:50:53.4339858Z"
+}
+2025-10-15 16:50:52 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 16:50:53 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 16:51:00 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-15 16:51:00 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 80,
+            "number": "00000000080",
+            "sourceAccount": {
+                "number": "00000000090",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000091",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:51:01.682647Z",
+            "lastModified": null
+        },
+        {
+            "id": 79,
+            "number": "00000000079",
+            "sourceAccount": {
+                "number": "00000000088",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000089",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:48:35.65698Z",
+            "lastModified": "2025-10-15T11:48:35.883888Z"
+        },
+        {
+            "id": 78,
+            "number": "00000000078",
+            "sourceAccount": {
+                "number": "00000000086",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000087",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:44:46.855951Z",
+            "lastModified": null
+        },
+        {
+            "id": 77,
+            "number": "00000000077",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.505256Z",
+            "lastModified": null
+        },
+        {
+            "id": 76,
+            "number": "00000000076",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.317616Z",
+            "lastModified": null
+        },
+        {
+            "id": 75,
+            "number": "00000000075",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.137388Z",
+            "lastModified": null
+        },
+        {
+            "id": 74,
+            "number": "00000000074",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:13.876742Z",
+            "lastModified": null
+        },
+        {
+            "id": 73,
+            "number": "00000000073",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:13.687258Z",
+            "lastModified": null
+        },
+        {
+            "id": 72,
+            "number": "00000000072",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:12.565059Z",
+            "lastModified": null
+        },
+        {
+            "id": 71,
+            "number": "00000000071",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:09:49.593918Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 8,
+    "totalCount": 74,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-15 16:51:00 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/transactions/80/status
+2025-10-15 16:51:00 [Test worker] INFO  ApiRequest - Body is {"status":1,"id":80}
+2025-10-15 16:51:00 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:51:00 [Test worker] INFO  ManagerController - ✅ Updated transaction 80 → status '1'; response code: 200
+2025-10-15 16:52:50 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:52:50 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:52:50 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:52:50 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:52:50 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:52:51 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 92,
+    "number": "00000000092",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:52:52.1199402Z"
+}
+2025-10-15 16:52:51 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:52:51 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:52:51 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:52:52 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:52:52 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:52:52 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 93,
+    "number": "00000000093",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:52:53.4801285Z"
+}
+2025-10-15 16:52:52 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 16:52:53 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 16:52:59 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-15 16:53:00 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 81,
+            "number": "00000000081",
+            "sourceAccount": {
+                "number": "00000000092",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000093",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:53:01.085344Z",
+            "lastModified": null
+        },
+        {
+            "id": 80,
+            "number": "00000000080",
+            "sourceAccount": {
+                "number": "00000000090",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000091",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:51:01.682647Z",
+            "lastModified": "2025-10-15T11:51:01.898323Z"
+        },
+        {
+            "id": 79,
+            "number": "00000000079",
+            "sourceAccount": {
+                "number": "00000000088",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000089",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:48:35.65698Z",
+            "lastModified": "2025-10-15T11:48:35.883888Z"
+        },
+        {
+            "id": 78,
+            "number": "00000000078",
+            "sourceAccount": {
+                "number": "00000000086",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000087",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:44:46.855951Z",
+            "lastModified": null
+        },
+        {
+            "id": 77,
+            "number": "00000000077",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.505256Z",
+            "lastModified": null
+        },
+        {
+            "id": 76,
+            "number": "00000000076",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.317616Z",
+            "lastModified": null
+        },
+        {
+            "id": 75,
+            "number": "00000000075",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.137388Z",
+            "lastModified": null
+        },
+        {
+            "id": 74,
+            "number": "00000000074",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:13.876742Z",
+            "lastModified": null
+        },
+        {
+            "id": 73,
+            "number": "00000000073",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:13.687258Z",
+            "lastModified": null
+        },
+        {
+            "id": 72,
+            "number": "00000000072",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:12.565059Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 8,
+    "totalCount": 75,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-15 16:53:00 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/transactions/81/status
+2025-10-15 16:53:00 [Test worker] INFO  ApiRequest - Body is {"status":1,"id":81}
+2025-10-15 16:53:00 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:53:00 [Test worker] INFO  ManagerController - ✅ Updated transaction 81 → status '1'; response code: 200
+2025-10-15 16:57:51 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:57:51 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:57:51 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:57:52 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:57:52 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:57:52 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 94,
+    "number": "00000000094",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:57:53.6051877Z"
+}
+2025-10-15 16:57:53 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 16:57:53 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 16:57:53 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:57:53 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 16:57:53 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 16:57:53 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 95,
+    "number": "00000000095",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T11:57:54.8967334Z"
+}
+2025-10-15 16:57:53 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 16:57:55 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 16:58:01 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-15 16:58:01 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 82,
+            "number": "00000000082",
+            "sourceAccount": {
+                "number": "00000000094",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000095",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:58:02.269769Z",
+            "lastModified": null
+        },
+        {
+            "id": 81,
+            "number": "00000000081",
+            "sourceAccount": {
+                "number": "00000000092",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000093",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:53:01.085344Z",
+            "lastModified": "2025-10-15T11:53:01.285044Z"
+        },
+        {
+            "id": 80,
+            "number": "00000000080",
+            "sourceAccount": {
+                "number": "00000000090",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000091",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:51:01.682647Z",
+            "lastModified": "2025-10-15T11:51:01.898323Z"
+        },
+        {
+            "id": 79,
+            "number": "00000000079",
+            "sourceAccount": {
+                "number": "00000000088",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000089",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:48:35.65698Z",
+            "lastModified": "2025-10-15T11:48:35.883888Z"
+        },
+        {
+            "id": 78,
+            "number": "00000000078",
+            "sourceAccount": {
+                "number": "00000000086",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000087",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:44:46.855951Z",
+            "lastModified": null
+        },
+        {
+            "id": 77,
+            "number": "00000000077",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.505256Z",
+            "lastModified": null
+        },
+        {
+            "id": 76,
+            "number": "00000000076",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.317616Z",
+            "lastModified": null
+        },
+        {
+            "id": 75,
+            "number": "00000000075",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.137388Z",
+            "lastModified": null
+        },
+        {
+            "id": 74,
+            "number": "00000000074",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:13.876742Z",
+            "lastModified": null
+        },
+        {
+            "id": 73,
+            "number": "00000000073",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:13.687258Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 8,
+    "totalCount": 76,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-15 16:58:01 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/transactions/82/status
+2025-10-15 16:58:01 [Test worker] INFO  ApiRequest - Body is {"status":1,"id":82}
+2025-10-15 16:58:01 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 16:58:01 [Test worker] INFO  ManagerController - ✅ Updated transaction 82 → status '1'; response code: 200
+2025-10-15 17:22:29 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 17:22:30 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 17:22:30 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:22:30 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 17:22:30 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 17:22:30 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:22:31 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 17:22:31 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 17:22:31 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 96,
+    "number": "00000000096",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T12:22:32.4118682Z"
+}
+2025-10-15 17:22:31 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 17:22:31 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 17:22:31 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 97,
+    "number": "00000000097",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T12:22:32.5686287Z"
+}
+2025-10-15 17:22:32 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 17:22:33 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 17:22:39 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-15 17:22:39 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 83,
+            "number": "00000000083",
+            "sourceAccount": {
+                "number": "00000000096",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000097",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T12:22:40.697255Z",
+            "lastModified": null
+        },
+        {
+            "id": 82,
+            "number": "00000000082",
+            "sourceAccount": {
+                "number": "00000000094",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000095",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:58:02.269769Z",
+            "lastModified": "2025-10-15T11:58:02.484143Z"
+        },
+        {
+            "id": 81,
+            "number": "00000000081",
+            "sourceAccount": {
+                "number": "00000000092",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000093",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:53:01.085344Z",
+            "lastModified": "2025-10-15T11:53:01.285044Z"
+        },
+        {
+            "id": 80,
+            "number": "00000000080",
+            "sourceAccount": {
+                "number": "00000000090",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000091",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:51:01.682647Z",
+            "lastModified": "2025-10-15T11:51:01.898323Z"
+        },
+        {
+            "id": 79,
+            "number": "00000000079",
+            "sourceAccount": {
+                "number": "00000000088",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000089",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:48:35.65698Z",
+            "lastModified": "2025-10-15T11:48:35.883888Z"
+        },
+        {
+            "id": 78,
+            "number": "00000000078",
+            "sourceAccount": {
+                "number": "00000000086",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000087",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:44:46.855951Z",
+            "lastModified": null
+        },
+        {
+            "id": 77,
+            "number": "00000000077",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.505256Z",
+            "lastModified": null
+        },
+        {
+            "id": 76,
+            "number": "00000000076",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.317616Z",
+            "lastModified": null
+        },
+        {
+            "id": 75,
+            "number": "00000000075",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.137388Z",
+            "lastModified": null
+        },
+        {
+            "id": 74,
+            "number": "00000000074",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:13.876742Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 8,
+    "totalCount": 77,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-15 17:22:39 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/transactions/83/status
+2025-10-15 17:22:39 [Test worker] INFO  ApiRequest - Body is {"status":1,"id":83}
+2025-10-15 17:22:39 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:22:39 [Test worker] INFO  ManagerController - ✅ Updated transaction 83 → status '1'; response code: 200
+2025-10-15 17:25:48 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 17:25:49 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 17:25:49 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:25:49 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 17:25:49 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 17:25:49 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:25:50 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 17:25:50 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 17:25:50 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 98,
+    "number": "00000000098",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T12:25:51.5131637Z"
+}
+2025-10-15 17:25:50 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 17:25:50 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 17:25:50 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 99,
+    "number": "00000000099",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T12:25:51.6670391Z"
+}
+2025-10-15 17:25:51 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 17:25:52 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 17:25:58 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-15 17:25:59 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 84,
+            "number": "00000000084",
+            "sourceAccount": {
+                "number": "00000000098",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000099",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T12:26:00.115627Z",
+            "lastModified": null
+        },
+        {
+            "id": 83,
+            "number": "00000000083",
+            "sourceAccount": {
+                "number": "00000000096",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000097",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T12:22:40.697255Z",
+            "lastModified": "2025-10-15T12:22:40.899049Z"
+        },
+        {
+            "id": 82,
+            "number": "00000000082",
+            "sourceAccount": {
+                "number": "00000000094",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000095",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:58:02.269769Z",
+            "lastModified": "2025-10-15T11:58:02.484143Z"
+        },
+        {
+            "id": 81,
+            "number": "00000000081",
+            "sourceAccount": {
+                "number": "00000000092",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000093",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:53:01.085344Z",
+            "lastModified": "2025-10-15T11:53:01.285044Z"
+        },
+        {
+            "id": 80,
+            "number": "00000000080",
+            "sourceAccount": {
+                "number": "00000000090",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000091",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:51:01.682647Z",
+            "lastModified": "2025-10-15T11:51:01.898323Z"
+        },
+        {
+            "id": 79,
+            "number": "00000000079",
+            "sourceAccount": {
+                "number": "00000000088",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000089",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:48:35.65698Z",
+            "lastModified": "2025-10-15T11:48:35.883888Z"
+        },
+        {
+            "id": 78,
+            "number": "00000000078",
+            "sourceAccount": {
+                "number": "00000000086",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000087",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:44:46.855951Z",
+            "lastModified": null
+        },
+        {
+            "id": 77,
+            "number": "00000000077",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.505256Z",
+            "lastModified": null
+        },
+        {
+            "id": 76,
+            "number": "00000000076",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.317616Z",
+            "lastModified": null
+        },
+        {
+            "id": 75,
+            "number": "00000000075",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.137388Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 8,
+    "totalCount": 78,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-15 17:25:59 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/transactions/84/status
+2025-10-15 17:25:59 [Test worker] INFO  ApiRequest - Body is {"status":1,"id":84}
+2025-10-15 17:25:59 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:25:59 [Test worker] INFO  ManagerController - ✅ Updated transaction 84 → status '1'; response code: 200
+2025-10-15 17:27:02 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 17:27:02 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 17:27:02 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:27:02 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 17:27:02 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 17:27:02 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:27:03 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 17:27:03 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 17:27:03 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 100,
+    "number": "00000000100",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T12:27:04.6600504Z"
+}
+2025-10-15 17:27:03 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 17:27:03 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 17:27:03 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 101,
+    "number": "00000000101",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T12:27:04.8089825Z"
+}
+2025-10-15 17:27:04 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 17:27:05 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 17:27:11 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-15 17:27:11 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 85,
+            "number": "00000000085",
+            "sourceAccount": {
+                "number": "00000000100",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000101",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T12:27:13.009791Z",
+            "lastModified": null
+        },
+        {
+            "id": 84,
+            "number": "00000000084",
+            "sourceAccount": {
+                "number": "00000000098",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000099",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T12:26:00.115627Z",
+            "lastModified": "2025-10-15T12:26:00.327756Z"
+        },
+        {
+            "id": 83,
+            "number": "00000000083",
+            "sourceAccount": {
+                "number": "00000000096",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000097",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T12:22:40.697255Z",
+            "lastModified": "2025-10-15T12:22:40.899049Z"
+        },
+        {
+            "id": 82,
+            "number": "00000000082",
+            "sourceAccount": {
+                "number": "00000000094",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000095",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:58:02.269769Z",
+            "lastModified": "2025-10-15T11:58:02.484143Z"
+        },
+        {
+            "id": 81,
+            "number": "00000000081",
+            "sourceAccount": {
+                "number": "00000000092",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000093",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:53:01.085344Z",
+            "lastModified": "2025-10-15T11:53:01.285044Z"
+        },
+        {
+            "id": 80,
+            "number": "00000000080",
+            "sourceAccount": {
+                "number": "00000000090",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000091",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:51:01.682647Z",
+            "lastModified": "2025-10-15T11:51:01.898323Z"
+        },
+        {
+            "id": 79,
+            "number": "00000000079",
+            "sourceAccount": {
+                "number": "00000000088",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000089",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:48:35.65698Z",
+            "lastModified": "2025-10-15T11:48:35.883888Z"
+        },
+        {
+            "id": 78,
+            "number": "00000000078",
+            "sourceAccount": {
+                "number": "00000000086",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000087",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:44:46.855951Z",
+            "lastModified": null
+        },
+        {
+            "id": 77,
+            "number": "00000000077",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.505256Z",
+            "lastModified": null
+        },
+        {
+            "id": 76,
+            "number": "00000000076",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.317616Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 8,
+    "totalCount": 79,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-15 17:27:11 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/transactions/85/status
+2025-10-15 17:27:11 [Test worker] INFO  ApiRequest - Body is {"status":1,"id":85}
+2025-10-15 17:27:12 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:27:12 [Test worker] INFO  ManagerController - ✅ Updated transaction 85 → status '1'; response code: 200
+2025-10-15 17:30:07 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 17:30:07 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 17:30:07 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:30:07 [Test worker] INFO  ApiRequest - Performed POST (multipart) api/v1/authentication/signup
+2025-10-15 17:30:07 [Test worker] INFO  ApiRequest - Response status: 201
+2025-10-15 17:30:07 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:30:08 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 17:30:08 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 17:30:08 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 102,
+    "number": "00000000102",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T12:30:09.8592349Z"
+}
+2025-10-15 17:30:08 [Test worker] INFO  ApiRequest - Performed POST api/v1/account
+2025-10-15 17:30:08 [Test worker] INFO  ApiRequest - Body is {"currency":1,"accountPlanId":3}
+2025-10-15 17:30:08 [Test worker] WARN  ApiRequest - Response is 
+{
+    "id": 103,
+    "number": "00000000103",
+    "balance": 0,
+    "currency": 1,
+    "status": 0,
+    "accountPlan": null,
+    "accountTransactionLimit": null,
+    "createdDate": "2025-10-15T12:30:10.0165841Z"
+}
+2025-10-15 17:30:09 [Test worker] INFO  WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2025-10-15 17:30:10 [Test worker] INFO  WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 141.0.7390.76 windows
+2025-10-15 17:30:17 [Test worker] INFO  ApiRequest - Performed GET manager-api/v1/transactions
+2025-10-15 17:30:17 [Test worker] WARN  ApiRequest - Response is 
+{
+    "items": [
+        {
+            "id": 86,
+            "number": "00000000086",
+            "sourceAccount": {
+                "number": "00000000102",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000103",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1000.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T12:30:18.39783Z",
+            "lastModified": null
+        },
+        {
+            "id": 85,
+            "number": "00000000085",
+            "sourceAccount": {
+                "number": "00000000100",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000101",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T12:27:13.009791Z",
+            "lastModified": "2025-10-15T12:27:13.204055Z"
+        },
+        {
+            "id": 84,
+            "number": "00000000084",
+            "sourceAccount": {
+                "number": "00000000098",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000099",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T12:26:00.115627Z",
+            "lastModified": "2025-10-15T12:26:00.327756Z"
+        },
+        {
+            "id": 83,
+            "number": "00000000083",
+            "sourceAccount": {
+                "number": "00000000096",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000097",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T12:22:40.697255Z",
+            "lastModified": "2025-10-15T12:22:40.899049Z"
+        },
+        {
+            "id": 82,
+            "number": "00000000082",
+            "sourceAccount": {
+                "number": "00000000094",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000095",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 500.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:58:02.269769Z",
+            "lastModified": "2025-10-15T11:58:02.484143Z"
+        },
+        {
+            "id": 81,
+            "number": "00000000081",
+            "sourceAccount": {
+                "number": "00000000092",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000093",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:53:01.085344Z",
+            "lastModified": "2025-10-15T11:53:01.285044Z"
+        },
+        {
+            "id": 80,
+            "number": "00000000080",
+            "sourceAccount": {
+                "number": "00000000090",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000091",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:51:01.682647Z",
+            "lastModified": "2025-10-15T11:51:01.898323Z"
+        },
+        {
+            "id": 79,
+            "number": "00000000079",
+            "sourceAccount": {
+                "number": "00000000088",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000089",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Approved",
+            "created": "2025-10-15T11:48:35.65698Z",
+            "lastModified": "2025-10-15T11:48:35.883888Z"
+        },
+        {
+            "id": 78,
+            "number": "00000000078",
+            "sourceAccount": {
+                "number": "00000000086",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000087",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 0.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T11:44:46.855951Z",
+            "lastModified": null
+        },
+        {
+            "id": 77,
+            "number": "00000000077",
+            "sourceAccount": {
+                "number": "00000000063",
+                "user": null
+            },
+            "destinationAccount": {
+                "number": "00000000043",
+                "user": null
+            },
+            "fee": 0.00,
+            "amount": 1.00,
+            "currency": "Usd",
+            "status": "Pending",
+            "created": "2025-10-15T10:10:14.505256Z",
+            "lastModified": null
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 8,
+    "totalCount": 80,
+    "hasPreviousPage": true,
+    "hasNextPage": true
+}
+2025-10-15 17:30:17 [Test worker] INFO  ApiRequest - Performed PUT manager-api/v1/transactions/86/status
+2025-10-15 17:30:17 [Test worker] INFO  ApiRequest - Body is {"id":86,"status":1}
+2025-10-15 17:30:17 [Test worker] WARN  ApiRequest - Response is 
+
+2025-10-15 17:30:17 [Test worker] INFO  ManagerController - ✅ Updated transaction 86 → status '1'; response code: 200
+2025-10-17 14:55:45 [Test worker] INFO  Version - HHH000412: Hibernate ORM core version 7.1.3.Final
+2025-10-17 14:55:45 [Test worker] WARN  pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-10-17 14:55:46 [Test worker] WARN  deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17 14:55:46 [Test worker] INFO  pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://46.149.69.114:54321/NBWallet]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.0
+	Default catalog/schema: NBWallet/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-10-17 14:55:48 [Test worker] INFO  JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)

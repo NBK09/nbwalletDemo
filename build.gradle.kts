@@ -120,3 +120,11 @@ tasks.register<Test>("smokeTest") {
         includeTags("Smoke")
     }
 }
+
+    tasks.register<Test>("E2E") {
+        group = "verification"
+        description = "Runs tests tagged with @Tag(\"E2E\")"
+        useJUnitPlatform {
+            includeTags("E2E")
+        }
+    }
