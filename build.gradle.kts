@@ -1,7 +1,7 @@
 plugins {
     id("java")
     id("io.freefair.lombok") version "8.4"
-    id("io.qameta.allure") version "2.9.4"
+    id("io.qameta.allure") version "2.11.2"
     id("org.gradle.test-retry") version "1.6.2"
 }
 tasks.withType<JavaCompile>().configureEach {
