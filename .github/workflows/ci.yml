@@ -1,0 +1,132 @@
+name: Gradle CI
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+    branches: ["main", "master"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ${{ format('ci-{0}-{1}', github.workflow, github.ref) }}
+  cancel-in-progress: true
+
+env:
+  GRADLE_USER_HOME: ~/.gradle
+  SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+  MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
+  MAILGUN_DOMAIN: ${{ secrets.MAILGUN_DOMAIN }}
+  MAILGUN_TO: ${{ secrets.MAILGUN_TO }}
+
+jobs:
+  build-and-test:
+    name: Build, Test and Report
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Set up Gradle with caching
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Validate Gradle wrapper
+        uses: gradle/wrapper-validation-action@v2
+
+      - name: Clean project
+        run: ./gradlew clean
+
+      - name: Run REST API tests
+        run: ./gradlew test --tests "apiTest.*"
+
+      - name: Run UI tests (Selenide)
+        env:
+          SELENIDE_HEADLESS: 'true'
+        run: ./gradlew test --tests "uiTest.*"
+
+      - name: Run integration tests (JDBC)
+        run: |
+          set +e
+          ./gradlew test --tests "*Integration*" --info
+          STATUS=$?
+          if [ $STATUS -ne 0 ]; then
+            ./gradlew test --tests "*db*" --info
+            STATUS=$?
+          fi
+          exit $STATUS
+
+
+      - name: Run full test suite
+        run: ./gradlew test
+
+      - name: Generate Allure report
+        run: ./gradlew allureReport
+
+      - name: Upload Allure report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: build/reports/allure-report
+          if-no-files-found: warn
+
+      - name: Upload Allure results and logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-logs
+          path: |
+            build/allure-results
+            build/reports/tests
+            build/test-results
+          if-no-files-found: warn
+
+      - name: Upload Allure pages artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/reports/allure-report
+
+  deploy-allure:
+    name: Publish Allure to GitHub Pages
+    needs: build-and-test
+    if: needs.build-and-test.result == 'success' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  notify:
+    name: Notify stakeholders
+    needs: [build-and-test, deploy-allure]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify via Slack
+        if: env.SLACK_WEBHOOK_URL != ''
+        run: |
+          STATUS="${{ needs.build-and-test.result }}"
+          curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"Workflow ${GITHUB_WORKFLOW} for ${GITHUB_REF} finished with status ${STATUS}.\"}" "$SLACK_WEBHOOK_URL"
+
+      - name: Notify via Mailgun
+        if: env.MAILGUN_API_KEY != '' && env.MAILGUN_DOMAIN != '' && env.MAILGUN_TO != ''
+        run: |
+          STATUS="${{ needs.build-and-test.result }}"
+          curl -s --user "api:$MAILGUN_API_KEY" \
+            https://api.mailgun.net/v3/$MAILGUN_DOMAIN/messages \
+            -F from="GitHub Actions <mailgun@$MAILGUN_DOMAIN>" \
+            -F to="$MAILGUN_TO" \
+            -F subject="Workflow ${GITHUB_WORKFLOW} status: ${STATUS}" \
+            -F text="The workflow run for ${GITHUB_REPOSITORY} on ${GITHUB_REF} has completed with status ${STATUS}."
